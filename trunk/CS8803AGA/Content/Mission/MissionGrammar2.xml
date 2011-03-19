@@ -1,0 +1,147 @@
+<Grammar>
+	<GraphGrammarRule Name="Root">
+		<Root>true</Root>
+		<Expansion Prob="1.00">
+			<ResultMappings>
+				<Node ID="1">MultiKeyMapping</Node>
+				<InNode>1</InNode>
+				<OutNode>1</OutNode>
+			</ResultMappings>
+			<ResultEdges></ResultEdges>
+		</Expansion>
+	</GraphGrammarRule>
+	<GraphGrammarRule Name="MultiKeyMapping">
+		<Root>false</Root>
+		<Expansion Prob="1.00">
+			<ResultMappings>
+				<Node ID="1">ForkTerminal</Node>
+				<Node ID="2">LockMulti</Node>
+				<Node ID="3">KeyMulti</Node>
+				<Node ID="4">KeyMulti</Node>
+				<Node ID="5">KeyMulti</Node>
+				<InNode>1</InNode>
+				<OutNode>2</OutNode>
+			</ResultMappings>
+			<ResultEdges>
+				<Edge>
+					<From>1</From>
+					<To>3</To>
+					<Type>Parallel</Type>
+				</Edge>
+				<Edge>
+					<From>1</From>
+					<To>4</To>
+					<Type>Parallel</Type>
+				</Edge>
+				<Edge>
+					<From>1</From>
+					<To>5</To>
+					<Type>Parallel</Type>
+				</Edge>
+				<Edge>
+					<From>3</From>
+					<To>2</To>
+					<Type>Parallel</Type>
+				</Edge>
+				<Edge>
+					<From>4</From>
+					<To>2</To>
+					<Type>Parallel</Type>
+				</Edge>
+				<Edge>
+					<From>5</From>
+					<To>2</To>
+					<Type>Parallel</Type>
+				</Edge>
+			</ResultEdges>
+		</Expansion>
+	</GraphGrammarRule>
+	<GraphGrammarRule Name="LockMulti">
+		<Root>false</Root>
+		<Expansion Prob="0.34">
+			<ResultMappings>
+				<Node ID="1">TestTerminal</Node>
+				<Node ID="2">LockTerminal</Node>
+				<InNode>1</InNode>
+				<OutNode>2</OutNode>
+			</ResultMappings>
+			<ResultEdges>
+				<Edge>
+					<From>1</From>
+					<To>2</To>
+					<Type>Parallel</Type>
+				</Edge>
+			</ResultEdges>
+		</Expansion>
+	</GraphGrammarRule>
+	<GraphGrammarRule Name="KeyMulti">
+		<Root>false</Root>
+		<Expansion Prob="0.33">
+			<ResultMappings>
+				<Node ID="1">KeyTerminal</Node>
+				<Node ID="2">LockTerminal</Node>
+				<Node ID="3">HookNotTerminal</Node>
+				<Node ID="4">KeyMultiTerminal</Node>
+				<InNode>1</InNode>
+				<OutNode>4</OutNode>
+			</ResultMappings>
+			<ResultEdges>
+				<Edge>
+					<From>1</From>
+					<To>2</To>
+					<Type>Parallel</Type>
+				</Edge>
+				<Edge>
+					<From>2</From>
+					<To>3</To>
+					<Type>Linear</Type>
+				</Edge>
+				<Edge>
+					<From>2</From>
+					<To>4</To>
+					<Type>Linear</Type>
+				</Edge>
+			</ResultEdges>
+		</Expansion>
+		<Expansion Prob="0.33">
+			<ResultMappings>
+				<Node ID="1">TestTerminal</Node>
+				<Node ID="2">KeyMultiTerminal</Node>
+				<InNode>1</InNode>
+				<OutNode>2</OutNode>
+			</ResultMappings>
+			<ResultEdges>
+				<Edge>
+					<From>1</From>
+					<To>2</To>
+					<Type>Linear</Type>
+				</Edge>
+			</ResultEdges>
+		</Expansion>
+		<Expansion Prob="0.00">
+			<ResultMappings>
+				<Node ID="1">TestSecretTerminal</Node>
+				<Node ID="2">KeyMultiTerminal</Node>
+				<InNode>1</InNode>
+				<OutNode>2</OutNode>
+			</ResultMappings>
+			<ResultEdges>
+				<Edge>
+					<From>1</From>
+					<To>2</To>
+					<Type>Linear</Type>
+				</Edge>
+			</ResultEdges>
+		</Expansion>
+	</GraphGrammarRule>
+	
+	<Terminals>
+		<Name>ForkTerminal</Name>
+		<Name>TestTerminal</Name>
+		<Name>KeyTerminal</Name>
+		<Name>LockTerminal</Name>
+		<Name>HookNotTerminal</Name>
+		<Name>KeyMultiTerminal</Name>
+		<Name>TestSecretTerminal</Name>
+	</Terminals>
+</Grammar>

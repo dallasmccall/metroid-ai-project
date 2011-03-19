@@ -1,0 +1,1 @@
+﻿/* This file is deprecated and safe for removal from SVN. */

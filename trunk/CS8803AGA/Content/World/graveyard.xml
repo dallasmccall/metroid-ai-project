@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="CS8803AGAGameLibrary.DecorationSetInfo">
+    <assetPath>Sprites/graveyard</assetPath>
+    <decorations>
+      <Item>
+        <Key>tree1</Key>
+        <Value>
+          <name>tree1</name>
+          <graphic>0 240 120 160</graphic>
+          <collision>40 360 40 40</collision>
+          <tileLock>true</tileLock>
+        </Value>
+      </Item>
+      <Item>
+        <Key>tree2</Key>
+        <Value>
+          <name>tree2</name>
+          <graphic>120 240 160 200</graphic>
+          <collision>180 390 40 40</collision>
+          <tileLock>true</tileLock>
+        </Value>
+      </Item>
+      <Item>
+        <Key>tombstone1</Key>
+        <Value>
+          <name>tombstone1</name>
+          <graphic>0 120 40 80</graphic>
+          <collision>0 160 40 40</collision>
+          <tileLock>true</tileLock>
+        </Value>
+      </Item>
+      <Item>
+        <Key>tombstone2</Key>
+        <Value>
+          <name>tombstone2</name>
+          <graphic>40 120 40 80</graphic>
+          <collision>40 160 40 40</collision>
+          <tileLock>true</tileLock>
+        </Value>
+      </Item>
+      <Item>
+        <Key>tombstone3</Key>
+        <Value>
+          <name>tombstone3</name>
+          <graphic>80 120 40 80</graphic>
+          <collision>80 160 40 40</collision>
+          <tileLock>true</tileLock>
+        </Value>
+      </Item>
+      <Item>
+        <Key>tombstone4</Key>
+        <Value>
+          <name>tombstone4</name>
+          <graphic>120 120 40 80</graphic>
+          <collision>120 160 40 40</collision>
+          <tileLock>true</tileLock>
+        </Value>
+      </Item>
+      <Item>
+        <Key>obelisk</Key>
+        <Value>
+          <name>obelisk</name>
+          <graphic>240 80 40 120</graphic>
+          <collision>240 160 40 40</collision>
+          <tileLock>true</tileLock>
+        </Value>
+      </Item>
+      <Item>
+        <Key>bigstone1</Key>
+        <Value>
+          <name>bigstone1</name>
+          <graphic>80 440 120 120</graphic>
+          <collision>80 506 120 54</collision>
+          <tileLock>true</tileLock>
+        </Value>
+      </Item>
+      <Item>
+        <Key>bigstone2</Key>
+        <Value>
+          <name>bigstone2</name>
+          <graphic>80 560 80 80</graphic>
+          <collision>80 600 80 40</collision>
+          <tileLock>true</tileLock>
+        </Value>
+      </Item>
+    </decorations>
+  </Asset>
+</XnaContent>

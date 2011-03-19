@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="CS8803AGAGameLibrary.DecorationSetInfo">
+    <assetPath>Sprites/reducedtown</assetPath>
+    <decorations>
+      <Item>
+        <Key>house1</Key>
+        <Value>
+          <name>house1</name>
+          <graphic>0 0 313 400</graphic>
+          <collision>0 80 320 240</collision>
+          <tileLock>true</tileLock>
+        </Value>
+      </Item>
+    </decorations>
+  </Asset>
+</XnaContent>

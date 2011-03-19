@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="CS8803AGAGameLibrary.AnimationSetXML">
+    <props>
+      <Item>
+        <Key>spriteHeight</Key>
+        <Value>50</Value>
+      </Item>
+      <Item>
+        <Key>spriteWidth</Key>
+        <Value>70</Value>
+      </Item>
+      <Item>
+        <Key>duration</Key>
+        <Value>7</Value>
+      </Item>
+    </props>
+
+    <anims>
+
+      <Item>
+        <name>up</name>
+        <numSprites>4</numSprites>
+        <sprites />
+        <props />
+      </Item>
+
+      <Item>
+        <name>down</name>
+        <numSprites>4</numSprites>
+        <sprites />
+        <props />
+      </Item>
+
+      <Item>
+        <name>left</name>
+        <numSprites>1</numSprites>
+        <sprites />
+        <props />
+      </Item>
+
+      <Item>
+        <name>right</name>
+        <numSprites>1</numSprites>
+        <sprites />
+        <props />
+      </Item>
+
+      <Item>
+        <name>attackleft</name>
+        <numSprites>2</numSprites>
+        <sprites/>
+        <props>
+          <Item>
+            <Key>priority</Key>
+            <Value>1</Value>
+          </Item>
+          <Item>
+            <Key>loops</Key>
+            <Value>false</Value>
+          </Item>
+        </props>
+      </Item>
+
+      <Item>
+        <name>attackright</name>
+        <numSprites>2</numSprites>
+        <sprites/>
+        <props>
+          <Item>
+            <Key>priority</Key>
+            <Value>1</Value>
+          </Item>
+          <Item>
+            <Key>loops</Key>
+            <Value>false</Value>
+          </Item>
+        </props>
+      </Item>
+
+      <Item>
+        <name>attackdown</name>
+        <numSprites>3</numSprites>
+        <sprites/>
+        <props>
+          <Item>
+            <Key>priority</Key>
+            <Value>1</Value>
+          </Item>
+          <Item>
+            <Key>loops</Key>
+            <Value>false</Value>
+          </Item>
+        </props>
+      </Item>
+
+      <Item>
+        <name>attackup</name>
+        <numSprites>2</numSprites>
+        <sprites/>
+        <props>
+          <Item>
+            <Key>priority</Key>
+            <Value>1</Value>
+          </Item>
+          <Item>
+            <Key>loops</Key>
+            <Value>false</Value>
+          </Item>
+        </props>
+      </Item>
+
+    </anims>
+  </Asset>
+</XnaContent>

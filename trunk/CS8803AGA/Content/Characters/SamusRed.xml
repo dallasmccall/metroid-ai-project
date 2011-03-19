@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="CS8803AGAGameLibrary.CharacterInfo">
+    <animationTexturePath>Animation/Textures/SamusRed</animationTexturePath>
+    <animationDataPath>Animation/Data/SamusRed</animationDataPath>
+    <collisionBox>-17 -100 34 100</collisionBox>
+    <speed>15</speed>
+    <scale>2.5</scale>
+  </Asset>
+</XnaContent>

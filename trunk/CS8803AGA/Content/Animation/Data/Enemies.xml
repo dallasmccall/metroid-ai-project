@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="CS8803AGAGameLibrary.AnimationSet">
+    <anims>
+      <Item>
+        <name>RipperRight</name>
+        <sprites>
+          <Item>
+            <box>247 2 24 13</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>287 2 23 13</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>327 2 23 13</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>RipperLeft</name>
+        <sprites>
+          <Item>
+            <box>246 18 23 13</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>286 18 24 13</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>326 18 23 13</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+    </anims>
+  </Asset>
+</XnaContent>

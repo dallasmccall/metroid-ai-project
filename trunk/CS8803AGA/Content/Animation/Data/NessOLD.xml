@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="CS8803AGAGameLibrary.AnimationSetXML">
+    <props>
+      <Item>
+        <Key>spriteHeight</Key>
+        <Value>23</Value>
+      </Item>
+      <Item>
+        <Key>spriteWidth</Key>
+        <Value>16</Value>
+      </Item>
+      <Item>
+        <Key>duration</Key>
+        <Value>5</Value>
+      </Item>
+    </props>
+    <anims>
+      <Item>
+        <name>right</name>
+        <numSprites>2</numSprites>
+        <sprites />
+        <props />
+      </Item>
+      <Item>
+        <name>left</name>
+        <numSprites>2</numSprites>
+        <sprites />
+        <props />
+      </Item>
+      <Item>
+        <name>up</name>
+        <numSprites>2</numSprites>
+        <sprites />
+        <props />
+      </Item>
+      <Item>
+        <name>down</name>
+        <numSprites>2</numSprites>
+        <sprites />
+        <props />
+      </Item>
+      <Item>
+        <name>upright</name>
+        <numSprites>2</numSprites>
+        <sprites />
+        <props />
+      </Item>
+      <Item>
+        <name>downleft</name>
+        <numSprites>2</numSprites>
+        <sprites />
+        <props />
+      </Item>
+      <Item>
+        <name>upleft</name>
+        <numSprites>2</numSprites>
+        <sprites />
+        <props />
+      </Item>
+      <Item>
+        <name>downright</name>
+        <numSprites>2</numSprites>
+        <sprites />
+        <props />
+      </Item>
+    </anims>
+  </Asset>
+</XnaContent>

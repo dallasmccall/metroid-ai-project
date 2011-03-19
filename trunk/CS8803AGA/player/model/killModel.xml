@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:player="CS8803AGAGameLibrary.player">
+  <Asset Type="player:PlayerModel">
+    <statPath Null="true" />
+    <playerStats>
+      <Item>
+        <Key>accuracy</Key>
+        <Value>0.75</Value>
+      </Item>
+      <Item>
+        <Key>shots</Key>
+        <Value>100</Value>
+      </Item>
+      <Item>
+        <Key>damageTaken</Key>
+        <Value>10</Value>
+      </Item>
+      <Item>
+        <Key>damageDone</Key>
+        <Value>75</Value>
+      </Item>
+      <Item>
+        <Key>roomsExplored</Key>
+        <Value>0.4</Value>
+      </Item>
+      <Item>
+        <Key>roomsVisited</Key>
+        <Value>10</Value>
+      </Item>
+    </playerStats>
+  </Asset>
+</XnaContent>

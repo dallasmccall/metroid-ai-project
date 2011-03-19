@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="CS8803AGAGameLibrary.AnimationSet">
+    <anims>
+      <Item>
+        <name>SidehopperCrouch</name>
+        <sprites>
+          <Item>
+            <box>10 105 58 38</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>SidehopperIdle</name>
+        <sprites>
+          <Item>
+            <box>91 104 56 40</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>SidehopperJump</name>
+        <sprites>
+          <Item>
+            <box>175 99 48 49</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+    </anims>
+  </Asset>
+</XnaContent>

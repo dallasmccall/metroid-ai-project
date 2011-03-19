@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="CS8803AGAGameLibrary.DecorationSetInfo">
+    <assetPath>Sprites/reducedtrees</assetPath>
+    <decorations>
+      <Item>
+        <Key>tree1</Key>
+        <Value>
+          <name>tree1</name>
+          <graphic>0 5 160 200</graphic>
+          <collision>60 160 40 40</collision>
+          <tileLock>true</tileLock>
+        </Value>
+      </Item>
+      <Item>
+        <Key>tree2</Key>
+        <Value>
+          <name>tree2</name>
+          <graphic>0 220 160 200</graphic>
+          <collision>60 370 40 40</collision>
+          <tileLock>true</tileLock>
+        </Value>
+      </Item>
+    </decorations>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,491 @@
+<Grammar>
+	<GraphGrammarRule Name="Root">
+		<Root>true</Root>
+		<Expansion Prob="1.00">
+			<ResultMappings>
+				<Node ID="1">StartTerminal</Node>
+				<Node ID="2">Chain-Main</Node>
+				<Node ID="3">BossMiniTerminal</Node>
+				<Node ID="4">ItemQuestTerminal</Node>
+				<Node ID="5">TestItemTerminal</Node>
+				<Node ID="6">Chain-Final</Node>
+				<InNode>1</InNode>
+				<OutNode>1</OutNode>
+			</ResultMappings>
+			<ResultEdges>
+				<Edge>
+					<From>1</From>
+					<To>2</To>
+					<Type>Parallel</Type>
+				</Edge>
+				<Edge>
+					<From>2</From>
+					<To>3</To>
+					<Type>Linear</Type>
+				</Edge>
+				<Edge>
+					<From>3</From>
+					<To>4</To>
+					<Type>Linear</Type>
+				</Edge>
+				<Edge>
+					<From>4</From>
+					<To>5</To>
+					<Type>Linear</Type>
+				</Edge>
+				<Edge>
+					<From>5</From>
+					<To>6</To>
+					<Type>Linear</Type>
+				</Edge>
+			</ResultEdges>
+		</Expansion>
+	</GraphGrammarRule>
+	<GraphGrammarRule Name="Chain-Main">
+		<Root>false</Root>
+		<Expansion Prob="Explore">
+			<ResultMappings>
+				<Node ID="1">ForkTerminal</Node>
+				<Node ID="2">Key-Multi</Node>
+				<Node ID="3">Key-Multi</Node>
+				<Node ID="4">Key-Multi</Node>
+				<Node ID="5">LockMultiTerminal</Node>
+				<InNode>1</InNode>
+				<OutNode>5</OutNode>
+			</ResultMappings>
+			<ResultEdges>
+				<Edge>
+					<From>1</From>
+					<To>2</To>
+					<Type>Parallel</Type>
+				</Edge>
+				<Edge>
+					<From>1</From>
+					<To>3</To>
+					<Type>Parallel</Type>
+				</Edge>
+				<Edge>
+					<From>1</From>
+					<To>4</To>
+					<Type>Parallel</Type>
+				</Edge>
+				<Edge>
+					<From>2</From>
+					<To>5</To>
+					<Type>Parallel</Type>
+				</Edge>
+				<Edge>
+					<From>3</From>
+					<To>5</To>
+					<Type>Parallel</Type>
+				</Edge>
+				<Edge>
+					<From>4</From>
+					<To>5</To>
+					<Type>Parallel</Type>
+				</Edge>
+			</ResultEdges>
+		</Expansion>
+		<Expansion Prob="Kill">
+			<ResultMappings>
+				<Node ID="1">LinearChain</Node>
+				<InNode>1</InNode>
+				<OutNode>1</OutNode>
+			</ResultMappings>
+			<ResultEdges></ResultEdges>
+		</Expansion>
+	</GraphGrammarRule>
+	<GraphGrammarRule Name="LinearChain">
+		<Root>false</Root>
+		<Expansion Prob="0.34">
+			<ResultMappings>
+				<Node ID="1">ChainLinear</Node>
+				<Node ID="2">ChainLinear</Node>
+				<Node ID="3">ChainLinear</Node>
+				<Node ID="4">ChainLinear</Node>
+				<Node ID="5">ChainLinear</Node>
+				<InNode>1</InNode>
+				<OutNode>5</OutNode>
+			</ResultMappings>
+			<ResultEdges>
+				<Edge>
+					<From>1</From>
+					<To>2</To>
+					<Type>Linear</Type>
+				</Edge>
+				<Edge>
+					<From>2</From>
+					<To>3</To>
+					<Type>Linear</Type>
+				</Edge>
+				<Edge>
+					<From>3</From>
+					<To>4</To>
+					<Type>Linear</Type>
+				</Edge>
+				<Edge>
+					<From>4</From>
+					<To>5</To>
+					<Type>Linear</Type>
+				</Edge>
+			</ResultEdges>
+		</Expansion>
+		<Expansion Prob="0.33">
+			<ResultMappings>
+				<Node ID="1">ChainLinear</Node>
+				<Node ID="2">ChainLinear</Node>
+				<Node ID="3">ChainLinear</Node>
+				<Node ID="4">ChainLinear</Node>
+				<InNode>1</InNode>
+				<OutNode>4</OutNode>
+			</ResultMappings>
+			<ResultEdges>
+				<Edge>
+					<From>1</From>
+					<To>2</To>
+					<Type>Linear</Type>
+				</Edge>
+				<Edge>
+					<From>2</From>
+					<To>3</To>
+					<Type>Linear</Type>
+				</Edge>
+				<Edge>
+					<From>3</From>
+					<To>4</To>
+					<Type>Linear</Type>
+				</Edge>
+			</ResultEdges>
+		</Expansion>
+		<Expansion Prob="0.33">
+			<ResultMappings>
+				<Node ID="1">ChainLinear</Node>
+				<Node ID="2">ChainLinear</Node>
+				<Node ID="3">ChainLinear</Node>
+				<InNode>1</InNode>
+				<OutNode>3</OutNode>
+			</ResultMappings>
+			<ResultEdges>
+				<Edge>
+					<From>1</From>
+					<To>2</To>
+					<Type>Linear</Type>
+				</Edge>
+				<Edge>
+					<From>2</From>
+					<To>3</To>
+					<Type>Linear</Type>
+				</Edge>
+			</ResultEdges>
+		</Expansion>
+	</GraphGrammarRule>
+	<GraphGrammarRule Name="ChainLinear">
+	<Root>false</Root>
+	<Expansion Prob="0.25">
+			<ResultMappings>
+				<Node ID="1">BattleTerminal</Node>
+				<InNode>1</InNode>
+				<OutNode>1</OutNode>
+			</ResultMappings>
+			<ResultEdges></ResultEdges>
+		</Expansion>
+		<Expansion Prob="0.25">
+			<ResultMappings>
+				<Node ID="1">BattleTerminal</Node>
+				<Node ID="2">BattleTerminal</Node>
+				<Node ID="3">ItemBonusTerminal</Node>
+				<InNode>1</InNode>
+				<OutNode>3</OutNode>
+			</ResultMappings>
+			<ResultEdges>
+				<Edge>
+					<From>1</From>
+					<To>2</To>
+					<Type>Linear</Type>
+				</Edge>
+				<Edge>
+					<From>2</From>
+					<To>3</To>
+					<Type>Linear</Type>
+				</Edge>
+			</ResultEdges>
+		</Expansion>
+		<Expansion Prob="0.25">
+			<ResultMappings>
+				<Node ID="1">BattleTerminal</Node>
+				<InNode>1</InNode>
+				<OutNode>1</OutNode>
+			</ResultMappings>
+			<ResultEdges></ResultEdges>
+		</Expansion>
+		<Expansion Prob="0.25">
+      <Params>
+        <Param>Item</Param>
+      </Params>
+			<ResultMappings>
+				<Node ID="1">KeyTerminal</Node>
+				<Node ID="2">LockTerminal</Node>
+				<Node ID="3">BattleTerminal</Node>
+				<InNode>1</InNode>
+				<OutNode>3</OutNode>
+			</ResultMappings>
+			<ResultEdges>
+				<Edge>
+					<From>1</From>
+					<To>2</To>
+					<Type>Linear</Type>
+				</Edge>
+				<Edge>
+					<From>2</From>
+					<To>3</To>
+					<Type>Linear</Type>
+				</Edge>
+			</ResultEdges>
+		</Expansion>
+	</GraphGrammarRule>
+	<GraphGrammarRule Name="Key-Multi">
+		<Root>false</Root>
+		<Expansion Prob="Explore">
+			<ResultMappings>
+				<Node ID="1">TestSecretTerminal</Node>
+				<Node ID="2">KeyMultiTerminal</Node>
+				<InNode>1</InNode>
+				<OutNode>2</OutNode>
+			</ResultMappings>
+			<ResultEdges>
+				<Edge>
+					<From>1</From>
+					<To>2</To>
+					<Type>Linear</Type>
+				</Edge>
+			</ResultEdges>
+		</Expansion>
+		<Expansion Prob="Kill">
+			<ResultMappings>
+				<Node ID="1">BattleTerminal</Node>
+				<Node ID="2">KeyMultiTerminal</Node>
+				<InNode>1</InNode>
+				<OutNode>2</OutNode>
+			</ResultMappings>
+			<ResultEdges>
+				<Edge>
+					<From>1</From>
+					<To>2</To>
+					<Type>Linear</Type>
+				</Edge>
+			</ResultEdges>
+		</Expansion>
+	</GraphGrammarRule>
+	<GraphGrammarRule Name="Chain-Final">
+		<Root>false</Root>
+		<Expansion Prob="1.00">
+			<ResultMappings>
+				<Node ID="1">ForkTerminal</Node>
+				<Node ID="2">Hook</Node>
+				<Node ID="3">LinearChain</Node>
+				<Node ID="4">BattleTerminal</Node>
+				<Node ID="5">KeyFinalTerminal</Node>
+				<Node ID="6">Hook</Node>
+				<Node ID="7">LockFinalTerminal</Node>
+				<Node ID="8">BossFinalTerminal</Node>
+				<Node ID="9">GoalTerminal</Node>
+				<InNode>1</InNode>
+				<OutNode>9</OutNode>
+			</ResultMappings>
+			<ResultEdges>
+				<Edge>
+					<From>1</From>
+					<To>2</To>
+					<Type>Parallel</Type>
+				</Edge>
+				<Edge>
+					<From>1</From>
+					<To>3</To>
+					<Type>Parallel</Type>
+				</Edge>
+				<Edge>
+					<From>1</From>
+					<To>4</To>
+					<Type>Parallel</Type>
+				</Edge>
+				<Edge>
+					<From>4</From>
+					<To>6</To>
+					<Type>Parallel</Type>
+				</Edge>
+				<Edge>
+					<From>4</From>
+					<To>5</To>
+					<Type>Parallel</Type>
+				</Edge>
+				<Edge>
+					<From>3</From>
+					<To>7</To>
+					<Type>Linear</Type>
+				</Edge>
+				<Edge>
+					<From>5</From>
+					<To>7</To>
+					<Type>Parallel</Type>
+				</Edge>
+				<Edge>
+					<From>7</From>
+					<To>8</To>
+					<Type>Linear</Type>
+				</Edge>
+				<Edge>
+					<From>8</From>
+					<To>9</To>
+					<Type>Linear</Type>
+				</Edge>
+			</ResultEdges>
+		</Expansion>
+	</GraphGrammarRule>
+	<GraphGrammarRule Name="Hook">
+		<Root>false</Root>
+		<Expansion Prob="Explore">
+			<ResultMappings>
+				<Node ID="1">ExplorationTerminal</Node>
+				<InNode>1</InNode>
+				<OutNode>1</OutNode>
+			</ResultMappings>
+			<ResultEdges></ResultEdges>
+		</Expansion>
+		<Expansion Prob="Kill">
+			<ResultMappings>
+				<Node ID="1">BattleTerminal</Node>
+				<Node ID="2">ItemBonusTerminal</Node>
+				<InNode>1</InNode>
+				<OutNode>2</OutNode>
+			</ResultMappings>
+			<ResultEdges>
+				<Edge>
+					<From>1</From>
+					<To>2</To>
+					<Type>Linear</Type>
+				</Edge>
+			</ResultEdges>
+		</Expansion>
+		<Expansion Prob="Explore">
+			<ResultMappings>
+				<Node ID="1">TestSecretTerminal</Node>
+				<Node ID="2">ItemBonusTerminal</Node>
+				<InNode>1</InNode>
+				<OutNode>2</OutNode>
+			</ResultMappings>
+			<ResultEdges>
+				<Edge>
+					<From>1</From>
+					<To>2</To>
+					<Type>Linear</Type>
+				</Edge>
+			</ResultEdges>
+		</Expansion>
+	</GraphGrammarRule>
+  
+	<Terminals>
+    <Terminal>
+      <Name>StartTerminal</Name>
+      <Class>MissionTerminalExpanderDummy</Class>
+      <Params>
+        <Param>
+          <Key>Length</Key>
+          <Value>1</Value>
+        </Param>
+        <Param>
+          <Key>FractalCreator</Key>
+          <Value>FractalCreatorStraight</Value>
+        </Param>
+      </Params>
+    </Terminal>
+
+    <Terminal>
+      <Name>BossMiniTerminal</Name>
+      <Class>MissionTerminalExpanderDummy</Class>
+      <Params>
+        <Param>
+          <Key>FractalCreator</Key>
+          <Value>FractalCreatorStraight</Value>
+        </Param>
+      </Params>
+    </Terminal>
+    <Terminal>
+      <Name>ItemQuestTerminal</Name>
+      <Class>MissionTerminalExpanderDummy</Class>
+    </Terminal>
+    <Terminal>
+      <Name>TestItemTerminal</Name>
+      <Class>MissionTerminalExpanderDummy</Class>
+    </Terminal>
+    <Terminal>
+      <Name>GoalTerminal</Name>
+      <Class>MissionTerminalExpanderDummy</Class>
+    </Terminal>
+    <Terminal>
+      <Name>ForkTerminal</Name>
+      <Class>MissionTerminalExpanderDummy</Class>
+    </Terminal>
+		<Terminal>
+      <Name>LockMultiTerminal</Name>
+      <Class>MissionTerminalExpanderDummy</Class>
+    </Terminal>
+    <Terminal>
+      <Name>BattleTerminal</Name>
+      <Class>MissionTerminalExpanderDummy</Class>
+      <Params>
+        <Param>
+          <Key>FractalCreator</Key>
+          <Value>FractalCreatorStraight</Value>
+        </Param>
+      </Params>
+    </Terminal>
+    <Terminal>
+      <Name>ItemBonusTerminal</Name>
+      <Class>MissionTerminalExpanderDummy</Class>
+    </Terminal>
+    <Terminal>
+      <Name>TestSecretTerminal</Name>
+      <Class>MissionTerminalExpanderDummy</Class>
+      <Params>
+        <Param>
+          <Key>Length</Key>
+          <Value>2</Value>
+        </Param>
+      </Params>
+    </Terminal>
+    <Terminal>
+      <Name>KeyTerminal</Name>
+      <Class>KeySwitch</Class>
+    </Terminal>
+    <Terminal>
+      <Name>LockTerminal</Name>
+      <Class>LockSwitch</Class>
+    </Terminal>
+    <Terminal>
+      <Name>KeyMultiTerminal</Name>
+      <Class>MissionTerminalExpanderDummy</Class>
+    </Terminal>
+    <Terminal>
+      <Name>KeyFinalTerminal</Name>
+      <Class>MissionTerminalExpanderDummy</Class>
+    </Terminal>
+    <Terminal>
+      <Name>LockFinalTerminal</Name>
+      <Class>MissionTerminalExpanderDummy</Class>
+    </Terminal>
+    <Terminal>
+      <Name>BossFinalTerminal</Name>
+      <Class>MissionTerminalExpanderDummy</Class>
+      <Params>
+        <Param>
+          <Key>FractalCreator</Key>
+          <Value>FractalCreatorStraight</Value>
+        </Param>
+      </Params>
+    </Terminal>
+    <Terminal>
+      <Name>ExplorationTerminal</Name>
+      <Class>MissionTerminalExpanderDummy</Class>
+    </Terminal>
+	</Terminals>
+</Grammar>

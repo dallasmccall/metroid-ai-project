@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="CS8803AGAGameLibrary.CharacterInfo">
+    <animationTexturePath>Animation/Textures/mask</animationTexturePath>
+    <animationDataPath>Animation/Data/Jason</animationDataPath>
+    <collisionBox>-14 -5 28 10</collisionBox>
+    <speed>15</speed>
+    <scale>2</scale>
+  </Asset>
+</XnaContent>

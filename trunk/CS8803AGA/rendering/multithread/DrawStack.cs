@@ -23,7 +23,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace CS8803AGA
+namespace MetroidAI
 {
     /// <summary>
     /// A stack of DrawCommands which gets filled during the Update Thread

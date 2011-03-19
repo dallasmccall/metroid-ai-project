@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CS8803AGA.ui;
-using CS8803AGA.devices;
+using MetroidAI.ui;
+using MetroidAI.devices;
 using Microsoft.Xna.Framework;
 
-namespace CS8803AGA.engine
+namespace MetroidAI.engine
 {
     class EngineStateCredits : AEngineState
     {

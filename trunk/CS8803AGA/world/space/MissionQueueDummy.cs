@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CS8803AGA.world.space
+namespace MetroidAI.world.space
 {
     class MissionQueueDummy : IMissionQueue
     {

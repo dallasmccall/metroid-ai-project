@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using CS8803AGAGameLibrary;
+using MetroidAIGameLibrary;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace CS8803AGA
+namespace MetroidAI
 {
     /// <summary>
     /// A factory for constructing Decorations

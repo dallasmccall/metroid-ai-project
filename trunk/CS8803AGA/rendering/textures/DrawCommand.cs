@@ -20,7 +20,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace CS8803AGA
+namespace MetroidAI
 {
     /// <summary>
     /// Whether the coordinates within a DrawCommand are Absolute or

@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
-using CS8803AGA.controllers;
-using CS8803AGA.controllers.mission;
+using MetroidAI.controllers;
+using MetroidAI.controllers.mission;
 
-namespace CS8803AGA.world.space.populators
+namespace MetroidAI.world.space.populators
 {
     class ChozoWithItem : IObjectPopulator
     {

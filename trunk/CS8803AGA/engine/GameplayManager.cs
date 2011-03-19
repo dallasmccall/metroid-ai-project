@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using CS8803AGA.controllers;
-using CS8803AGA.world;
+using MetroidAI.controllers;
+using MetroidAI.world;
 
-namespace CS8803AGA.engine
+namespace MetroidAI.engine
 {
     /// <summary>
     /// Static class for quickly accessing active gameplay information.

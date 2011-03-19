@@ -59,13 +59,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\CS8803AGAContentPipeline\CS8803AGAContentPipeline.csproj">
+    <ProjectReference Include="..\..\CS8803AGAContentPipeline\MetroidAIContentPipeline.csproj">
       <Project>{B2B591A0-BE4D-40BB-9066-D9553C70BD9B}</Project>
-      <Name>CS8803AGAContentPipeline</Name>
+      <Name>MetroidAIContentPipeline</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\CS8803AGAGameLibrary\CS8803AGAGameLibrary.csproj">
+    <ProjectReference Include="..\..\CS8803AGAGameLibrary\MetriodAIGameLibrary.csproj">
       <Project>{2F639B52-5C36-4053-96E2-60F429E8850D}</Project>
-      <Name>CS8803AGAGameLibrary</Name>
+      <Name>MetriodAIGameLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -365,56 +365,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Audio\music\03 Metroid Metal Prime - Space Pirates.wav">
-      <Name>03 Metroid Metal Prime - Space Pirates</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-    </Compile>
-    <Compile Include="Audio\music\03 Super Metroid Metal - Boss Medley.wav">
-      <Name>03 Super Metroid Metal - Boss Medley</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-    </Compile>
-    <Compile Include="Audio\music\04 Super Metroid Metal - Brinstar.wav">
-      <Name>04 Super Metroid Metal - Brinstar</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-    </Compile>
-    <Compile Include="Audio\music\05 Super Metroid Metal - Lower Norfair.wav">
-      <Name>05 Super Metroid Metal - Lower Norfair</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-    </Compile>
-    <Compile Include="Audio\music\06 Super Metroid Metal - Maridia.wav">
-      <Name>06 Super Metroid Metal - Maridia</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-    </Compile>
-    <Compile Include="Audio\music\07 Metroid Metal Prime - Intro-Menu Theme.wav">
-      <Name>07 Metroid Metal Prime - Intro-Menu Theme</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-    </Compile>
-    <Compile Include="Audio\music\08 Metroid Metal Prime - Phendrana Drifts.wav">
-      <Name>08 Metroid Metal Prime - Phendrana Drifts</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-    </Compile>
-    <Compile Include="Audio\music\12 Metroid Metal - Intro.wav">
-      <Name>12 Metroid Metal - Intro</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-    </Compile>
-    <Compile Include="Audio\music\18 Metroid Metal - The Theme.wav">
-      <Name>18 Metroid Metal - The Theme</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-    </Compile>
-    <Compile Include="Audio\music\20 Super Metroid - Upper Crateria.wav">
-      <Name>20 Super Metroid - Upper Crateria</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-    </Compile>
     <Compile Include="Sprites\WreckedShip.xml">
       <Name>WreckedShip</Name>
       <Importer>XmlImporter</Importer>

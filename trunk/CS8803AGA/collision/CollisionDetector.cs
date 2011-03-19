@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace CS8803AGA.collision
+namespace MetroidAI.collision
 {
     /// <summary>
     /// Encapsulation of a QuadTree for collision detection; handles

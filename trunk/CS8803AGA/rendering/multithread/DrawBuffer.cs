@@ -32,7 +32,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System.Threading;
 
-namespace CS8803AGA
+namespace MetroidAI
 {
     /// <summary>
     /// Responsible for managing the DrawCommand and FontDrawCommand stacks

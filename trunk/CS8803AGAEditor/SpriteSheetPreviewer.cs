@@ -6,10 +6,10 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using CS8803AGAGameLibrary;
+using MetroidAIGameLibrary;
 using System.Drawing.Drawing2D;
 
-namespace CS8803AGAEditor
+namespace MetroidAIEditor
 {
     public delegate void AnimationExportEventHandler(object sender, AnimationSet aset);
 

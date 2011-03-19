@@ -1,24 +1,24 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using CS8803AGAGameLibrary;
+using MetroidAIGameLibrary;
 using System.Collections.Generic;
 using CSharpQuadTree;
 using System;
-using CS8803AGA.collision;
-using CS8803AGA.devices;
-using CS8803AGA.controllers;
-using CS8803AGA.world;
-using CS8803AGA.controllers.enemies;
-using CS8803AGA.audio;
-using CS8803AGA.world.space;
-using CS8803AGA.controllers.mission;
+using MetroidAI.collision;
+using MetroidAI.devices;
+using MetroidAI.controllers;
+using MetroidAI.world;
+using MetroidAI.controllers.enemies;
+using MetroidAI.audio;
+using MetroidAI.world.space;
+using MetroidAI.controllers.mission;
 using System.Threading;
-using CS8803AGA.world.space.expanders;
-using CS8803AGA.world.mission;
+using MetroidAI.world.space.expanders;
+using MetroidAI.world.mission;
 using System.IO;
-using CS8803AGAGameLibrary.player;
+using MetroidAIGameLibrary.player;
 
-namespace CS8803AGA.engine
+namespace MetroidAI.engine
 {
     /// <summary>
     /// Engine state for the main gameplay processes of the game.
@@ -61,7 +61,7 @@ namespace CS8803AGA.engine
                 seed = 1019;
             }
             System.Console.WriteLine(String.Format("SEED: {0}", seed));
-            RandomManager.Seed(seed);
+            //RandomManager.Seed(seed);
 
             FileStream grammarStream = new FileStream(
                m_engine.Content.RootDirectory + @"/../../../../Content/Mission/NewGrammar.xml",

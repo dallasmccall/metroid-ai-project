@@ -21,7 +21,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CS8803AGA
+namespace MetroidAI
 {
     /// <summary>
     /// A Singleton with access to some objects which can be useful everywhere.

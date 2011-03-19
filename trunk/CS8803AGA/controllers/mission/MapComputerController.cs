@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CS8803AGA.collision;
+using MetroidAI.collision;
 
-namespace CS8803AGA.controllers.mission
+namespace MetroidAI.controllers.mission
 {
     class MapComputerController : ACollidable
     {

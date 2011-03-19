@@ -1,4 +1,4 @@
-﻿namespace CS8803AGA.engine
+﻿namespace MetroidAI.engine
 {
     public abstract class AEngineState : IEngineState
     {

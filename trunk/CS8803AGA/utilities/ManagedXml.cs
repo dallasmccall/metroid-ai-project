@@ -23,7 +23,7 @@ using System.Text;
 using System.Xml;
 using Microsoft.Xna.Framework.Content;
 
-namespace CS8803AGA.utilties
+namespace MetroidAI.utilties
 {
     /// <summary>
     /// ManagedXml creates a new ContentManager so that Xml data is not cached

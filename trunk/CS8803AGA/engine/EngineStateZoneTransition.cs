@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CS8803AGA.controllers;
-using CS8803AGA.world;
+using MetroidAI.controllers;
+using MetroidAI.world;
 using Microsoft.Xna.Framework;
 using System.Threading;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace CS8803AGA.engine
+namespace MetroidAI.engine
 {
     class EngineStateZoneTransition : AEngineState
     {

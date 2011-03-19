@@ -23,7 +23,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace CS8803AGA.ui
+namespace MetroidAI.ui
 {
     /// <summary>
     /// Creates a Menu made of different items, 

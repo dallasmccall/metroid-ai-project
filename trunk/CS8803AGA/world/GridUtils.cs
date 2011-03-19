@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 
-namespace CS8803AGA
+namespace MetroidAI
 {
     /// <summary>
     /// Utility for tile sets to determine what type of tile to draw in a

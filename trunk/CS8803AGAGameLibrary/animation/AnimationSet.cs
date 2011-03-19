@@ -2,12 +2,12 @@
 using Microsoft.Xna.Framework.Content;
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
-using CS8803AGAGameLibrary.actions;
+using MetroidAIGameLibrary.actions;
 using System.ComponentModel;
 using System.Drawing.Design;
 using System.ComponentModel.Design;
 
-namespace CS8803AGAGameLibrary
+namespace MetroidAIGameLibrary
 {
     /// <summary>
     /// A single image in an Animation, as well as metadata about

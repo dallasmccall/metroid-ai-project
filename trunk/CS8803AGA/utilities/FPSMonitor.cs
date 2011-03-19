@@ -28,7 +28,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace CS8803AGA.utilties
+namespace MetroidAI.utilties
 {
     /// <summary>
     /// Displays the current frame rate of the game.

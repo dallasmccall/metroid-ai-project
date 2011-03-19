@@ -29,11 +29,11 @@ using Microsoft.Xna.Framework.Media;
 using Microsoft.Xna.Framework.Net;
 using Microsoft.Xna.Framework.Storage;
 using System.Diagnostics;
-using CS8803AGA.devices;
-using CS8803AGA.engine;
-using CS8803AGA.audio;
+using MetroidAI.devices;
+using MetroidAI.engine;
+using MetroidAI.audio;
 
-namespace CS8803AGA
+namespace MetroidAI
 {
     /// <summary>
     /// This is the main type for your game

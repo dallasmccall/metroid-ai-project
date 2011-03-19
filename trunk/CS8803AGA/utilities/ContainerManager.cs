@@ -23,7 +23,7 @@ using System.Text;
 using Microsoft.Xna.Framework.Storage;
 using Microsoft.Xna.Framework;
 
-namespace CS8803AGA.utilties
+namespace MetroidAI.utilties
 {
     /// <summary>
     /// Manages access to Containers to prevent opening the same container

@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CS8803AGA.ui;
+using MetroidAI.ui;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using CS8803AGA.devices;
+using MetroidAI.devices;
 
-namespace CS8803AGA.engine
+namespace MetroidAI.engine
 {
     class EngineStatePause : AEngineState
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 
-namespace CS8803AGA.world
+namespace MetroidAI.world
 {
     struct Direction
     {

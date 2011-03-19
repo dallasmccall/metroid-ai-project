@@ -7,12 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Reflection;
-using CS8803AGAGameLibrary;
+using MetroidAIGameLibrary;
 using System.Xml.Serialization;
 using System.Xml;
 using Microsoft.Xna.Framework.Content.Pipeline.Serialization.Intermediate;
 
-namespace CS8803AGAEditor
+namespace MetroidAIEditor
 {
     public partial class ContentTypeSelector : Form
     {

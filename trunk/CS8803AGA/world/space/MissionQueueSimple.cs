@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CS8803AGA.world.space;
-using CS8803AGA.world.mission;
+using MetroidAI.world.space;
+using MetroidAI.world.mission;
 
-namespace CS8803AGA.world.space
+namespace MetroidAI.world.space
 {
     class MissionQueueSimple : IMissionQueue
     {

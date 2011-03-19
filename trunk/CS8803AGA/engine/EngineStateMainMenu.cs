@@ -1,11 +1,11 @@
 ﻿using Microsoft.Xna.Framework;
 using System.Collections.Generic;
-using CS8803AGA.devices;
-using CS8803AGA.ui;
+using MetroidAI.devices;
+using MetroidAI.ui;
 using Microsoft.Xna.Framework.Graphics;
-using CS8803AGA.audio;
+using MetroidAI.audio;
 
-namespace CS8803AGA.engine
+namespace MetroidAI.engine
 {
     public class EngineStateMainMenu : AEngineState
     {

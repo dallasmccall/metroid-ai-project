@@ -6,7 +6,7 @@ using System.Xml;
 using System.IO;
 using System.Xml.Serialization;
 
-namespace CS8803AGAGameLibrary.player
+namespace MetroidAIGameLibrary.player
 {
     // Model of player to guide generation, including accuracy, damage taken, etc.
     public class PlayerModel

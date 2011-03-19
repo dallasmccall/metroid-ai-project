@@ -18,7 +18,7 @@
 
 using Microsoft.Xna.Framework;
 
-namespace CS8803AGA.engine
+namespace MetroidAI.engine
 {
     /// <summary>
     /// Implemented by all the different major states of the game, such as

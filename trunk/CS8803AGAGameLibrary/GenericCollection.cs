@@ -10,7 +10,7 @@ using System.Drawing.Design;
 
 // http://www.codeproject.com/KB/tabs/customizingcollectiondata.aspx
 
-namespace CS8803AGAGameLibrary
+namespace MetroidAIGameLibrary
 {
     public class TestClass
     {

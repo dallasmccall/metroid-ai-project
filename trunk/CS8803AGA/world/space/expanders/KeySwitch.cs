@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CS8803AGA.controllers;
+using MetroidAI.controllers;
 
-namespace CS8803AGA.world.space.expanders
+namespace MetroidAI.world.space.expanders
 {
     class KeySwitch : AExpanderWrapper
     {

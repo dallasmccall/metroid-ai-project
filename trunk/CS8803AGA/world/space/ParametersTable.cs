@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Reflection;
 
-namespace CS8803AGA.world.space
+namespace MetroidAI.world.space
 {
     class ParametersTable : Dictionary<String, String>
     {
@@ -88,22 +88,22 @@ namespace CS8803AGA.world.space
 
         public IMissionTerminalExpander ParseMissionTerminalExpander(String paramName)
         {
-            return ParseObject<IMissionTerminalExpander>("CS8803AGA.world.space.expanders", paramName);
+            return ParseObject<IMissionTerminalExpander>("MetroidAI.world.space.expanders", paramName);
         }
 
         public IFractalCreator ParseFractalCreator(String paramName)
         {
-            return ParseObject<IFractalCreator>("CS8803AGA.world.space", paramName);
+            return ParseObject<IFractalCreator>("MetroidAI.world.space", paramName);
         }
 
         public IScreenPostProcessor ParseScreenPostProcessor(String paramName)
         {
-            return ParseObject<IScreenPostProcessor>("CS8803AGA.world.space.postprocessors", paramName);
+            return ParseObject<IScreenPostProcessor>("MetroidAI.world.space.postprocessors", paramName);
         }
 
         public IObjectPopulator ParseObjectPopulator(String paramName)
         {
-            return ParseObject<IObjectPopulator>("CS8803AGA.world.space.populators", paramName);
+            return ParseObject<IObjectPopulator>("MetroidAI.world.space.populators", paramName);
         }
 
         public T ParseEnum<T>(String paramName)

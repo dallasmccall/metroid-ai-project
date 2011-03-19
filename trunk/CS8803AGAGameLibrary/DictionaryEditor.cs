@@ -7,7 +7,7 @@ using System.Collections;
 using System.ComponentModel;
 using System.Reflection;
 
-namespace CS8803AGAGameLibrary
+namespace MetroidAIGameLibrary
 {
     class DictionaryEditor<K,V> : Form
     {

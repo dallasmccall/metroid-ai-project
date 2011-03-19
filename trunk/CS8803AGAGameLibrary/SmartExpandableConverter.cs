@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.ComponentModel;
 
-namespace CS8803AGAGameLibrary
+namespace MetroidAIGameLibrary
 {
     public class SmartExpandableConverter<T> : ExpandableObjectConverter
     {

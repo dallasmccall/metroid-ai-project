@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
-using CS8803AGAGameLibrary;
-using CS8803AGA.collision;
-using CS8803AGA.controllers;
+using MetroidAIGameLibrary;
+using MetroidAI.collision;
+using MetroidAI.controllers;
 using Microsoft.Xna.Framework.Graphics;
-using CS8803AGA.world.space;
-using CS8803AGA.engine;
-using CS8803AGA.world.space.postprocessors;
+using MetroidAI.world.space;
+using MetroidAI.engine;
+using MetroidAI.world.space.postprocessors;
 
-namespace CS8803AGA.world
+namespace MetroidAI.world
 {
     public class Zone
     {
@@ -66,12 +66,12 @@ namespace CS8803AGA.world
 
         public bool IsInitialized { get; protected set; }
 
-        internal CS8803AGA.world.ZoneBuilder.EnvironmentFillInfo EnvironmentFillInfo { get { return m_efi; } }
+        internal MetroidAI.world.ZoneBuilder.EnvironmentFillInfo EnvironmentFillInfo { get { return m_efi; } }
 
         protected HashSet<KeyValuePair<Point, Point>> m_blockedTiles;
 
         // TODO store this information in the tile set...
-        protected CS8803AGA.world.ZoneBuilder.EnvironmentFillInfo m_efi;
+        protected MetroidAI.world.ZoneBuilder.EnvironmentFillInfo m_efi;
 
         //internal Dictionary<Point, List<LineFractalInfo>> fractals;
 

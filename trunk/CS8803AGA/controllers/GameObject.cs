@@ -1,5 +1,5 @@
 ﻿
-namespace CS8803AGA.controllers
+namespace MetroidAI.controllers
 {
     /// <summary>
     /// Interface for any type of object which should be in the game.

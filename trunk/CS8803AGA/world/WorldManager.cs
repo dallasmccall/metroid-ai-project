@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
-using CS8803AGA.engine;
-using CS8803AGA.world;
+using MetroidAI.engine;
+using MetroidAI.world;
 
-namespace CS8803AGA
+namespace MetroidAI
 {
     /// <summary>
     /// Static class for storing the Areas and Regions of the world

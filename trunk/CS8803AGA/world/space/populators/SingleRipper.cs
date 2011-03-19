@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
-using CS8803AGA.controllers.enemies;
+using MetroidAI.controllers.enemies;
 
-namespace CS8803AGA.world.space.populators
+namespace MetroidAI.world.space.populators
 {
     class SingleRipper : IObjectPopulator
     {

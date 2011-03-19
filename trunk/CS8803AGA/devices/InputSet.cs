@@ -24,7 +24,7 @@ using System;
 // Refactor this to have a single set function for values
 //
 
-namespace CS8803AGA.devices
+namespace MetroidAI.devices
 {
     /// <summary>
     /// Pseudo-singleton which contains a data structure of values of input

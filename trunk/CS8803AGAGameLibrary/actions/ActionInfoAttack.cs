@@ -5,7 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using System.ComponentModel;
 
-namespace CS8803AGAGameLibrary.actions
+namespace MetroidAIGameLibrary.actions
 {
     /// <summary>
     /// Information about an area on the sprite being under attack.

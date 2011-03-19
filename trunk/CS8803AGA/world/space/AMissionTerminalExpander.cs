@@ -5,7 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using System.Reflection;
 
-namespace CS8803AGA.world.space
+namespace MetroidAI.world.space
 {
     abstract class AMissionTerminalExpander : IMissionTerminalExpander
     {

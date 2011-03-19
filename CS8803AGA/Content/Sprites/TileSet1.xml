@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="CS8803AGAGameLibrary.TileSet">
+    <assetPath>Sprites/grassRock</assetPath>
+    <tileWidth>40</tileWidth>
+    <tileHeight>40</tileHeight>
+    <columnsOnSpritesheet>5</columnsOnSpritesheet>
+    <tileInfos>
+      <Item>
+        <passable>true</passable>
+      </Item>
+      <Item>
+        <passable>true</passable>
+      </Item>
+      <Item>
+        <passable>true</passable>
+      </Item>
+      <Item>
+        <passable>true</passable>
+      </Item>
+      <Item>
+        <passable>false</passable>
+      </Item>
+      <Item>
+        <passable>true</passable>
+      </Item>
+      <Item>
+        <passable>true</passable>
+      </Item>
+      <Item>
+        <passable>true</passable>
+      </Item>
+      <Item>
+        <passable>true</passable>
+      </Item>
+      <Item>
+        <passable>true</passable>
+      </Item>
+      <Item>
+        <passable>true</passable>
+      </Item>
+      <Item>
+        <passable>true</passable>
+      </Item>
+      <Item>
+        <passable>true</passable>
+      </Item>
+      <Item>
+        <passable>true</passable>
+      </Item>
+      <Item>
+        <passable>true</passable>
+      </Item>
+    </tileInfos>
+  </Asset>
+</XnaContent>

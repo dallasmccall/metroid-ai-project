@@ -1,0 +1,1493 @@
+Signature = XACT3;
+Version = 17;
+Content Version = 45;
+Release = March 2009;
+
+Options
+{
+    Verbose Report = 0;
+    Generate C/C++ Headers = 1;
+}
+
+Global Settings
+{
+    Xbox File = Xbox\sounds.xgs;
+    Windows File = Win\sounds.xgs;
+    Header File = sounds.h;
+    Exclude Category Names = 0;
+    Exclude Variable Names = 0;
+    Last Modified Low = 3000700460;
+    Last Modified High = 29991240;
+
+    Category
+    {
+        Name = Global;
+        Public = 1;
+        Background Music = 0;
+        Volume = 0;
+
+        Category Entry
+        {
+        }
+
+        Instance Limit
+        {
+            Max Instances = 255;
+            Behavior = 0;
+
+            Crossfade
+            {
+                Fade In = 0;
+                Fade Out = 0;
+                Crossfade Type = 0;
+            }
+        }
+    }
+
+    Category
+    {
+        Name = Default;
+        Public = 1;
+        Background Music = 0;
+        Volume = 0;
+
+        Category Entry
+        {
+            Name = Global;
+        }
+
+        Instance Limit
+        {
+            Max Instances = 255;
+            Behavior = 0;
+
+            Crossfade
+            {
+                Fade In = 0;
+                Fade Out = 0;
+                Crossfade Type = 0;
+            }
+        }
+    }
+
+    Category
+    {
+        Name = Music;
+        Public = 1;
+        Background Music = 1;
+        Volume = 0;
+
+        Category Entry
+        {
+            Name = Global;
+        }
+
+        Instance Limit
+        {
+            Max Instances = 255;
+            Behavior = 0;
+
+            Crossfade
+            {
+                Fade In = 0;
+                Fade Out = 0;
+                Crossfade Type = 0;
+            }
+        }
+    }
+
+    Category
+    {
+        Name = Effect;
+        Public = 1;
+        Background Music = 0;
+        Volume = 0;
+
+        Category Entry
+        {
+            Name = Global;
+        }
+
+        Instance Limit
+        {
+            Max Instances = 255;
+            Behavior = 0;
+
+            Crossfade
+            {
+                Fade In = 0;
+                Fade Out = 0;
+                Crossfade Type = 0;
+            }
+        }
+    }
+
+    Variable
+    {
+        Name = OrientationAngle;
+        Public = 1;
+        Global = 0;
+        Internal = 0;
+        External = 0;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 0;
+        Time = 0;
+        Value = 0.000000;
+        Initial Value = 0.000000;
+        Min = -180.000000;
+        Max = 180.000000;
+    }
+
+    Variable
+    {
+        Name = DopplerPitchScalar;
+        Public = 1;
+        Global = 0;
+        Internal = 0;
+        External = 0;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 0;
+        Time = 0;
+        Value = 1.000000;
+        Initial Value = 1.000000;
+        Min = 0.000000;
+        Max = 4.000000;
+    }
+
+    Variable
+    {
+        Name = SpeedOfSound;
+        Public = 1;
+        Global = 1;
+        Internal = 0;
+        External = 0;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 0;
+        Time = 0;
+        Value = 343.500000;
+        Initial Value = 343.500000;
+        Min = 0.000000;
+        Max = 1000000.000000;
+    }
+
+    Variable
+    {
+        Name = ReleaseTime;
+        Public = 1;
+        Global = 0;
+        Internal = 1;
+        External = 1;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 1;
+        Time = 1;
+        Value = 0.000000;
+        Initial Value = 0.000000;
+        Min = 0.000000;
+        Max = 15000.000000;
+    }
+
+    Variable
+    {
+        Name = AttackTime;
+        Public = 1;
+        Global = 0;
+        Internal = 1;
+        External = 1;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 1;
+        Time = 1;
+        Value = 0.000000;
+        Initial Value = 0.000000;
+        Min = 0.000000;
+        Max = 15000.000000;
+    }
+
+    Variable
+    {
+        Name = NumCueInstances;
+        Public = 1;
+        Global = 0;
+        Internal = 1;
+        External = 1;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 1;
+        Time = 0;
+        Value = 0.000000;
+        Initial Value = 0.000000;
+        Min = 0.000000;
+        Max = 1024.000000;
+    }
+
+    Variable
+    {
+        Name = Distance;
+        Public = 1;
+        Global = 0;
+        Internal = 0;
+        External = 0;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 0;
+        Time = 0;
+        Value = 0.000000;
+        Initial Value = 0.000000;
+        Min = 0.000000;
+        Max = 1000.000000;
+    }
+
+    RPC
+    {
+        Name = Fade In/Out;
+
+        RPC Curve
+        {
+            Name = 1::d6f78bd6-9b2f-4fa0-8a25-8b6893accd90;
+            Property = 0;
+            Sound = 0;
+            Line Color = 4287200587;
+            Viewable = 1;
+
+            Variable Entry
+            {
+                Name = AttackTime;
+            }
+
+            RPC Point
+            {
+                X = 0.000000;
+                Y = -9600.000000;
+                Curve = 0;
+            }
+
+            RPC Point
+            {
+                X = 558.000000;
+                Y = -2500.000000;
+                Curve = 0;
+            }
+
+            RPC Point
+            {
+                X = 6000.000000;
+                Y = -2.083333;
+                Curve = 0;
+            }
+        }
+
+        RPC Curve
+        {
+            Name = 1::e829f82e-ddb6-45d5-8ab4-fe13e16ee0f6;
+            Property = 0;
+            Sound = 0;
+            Line Color = 4286938874;
+            Viewable = 1;
+
+            Variable Entry
+            {
+                Name = ReleaseTime;
+            }
+
+            RPC Point
+            {
+                X = 148.000000;
+                Y = 0.000000;
+                Curve = 0;
+            }
+
+            RPC Point
+            {
+                X = 5024.000000;
+                Y = -2500.000000;
+                Curve = 0;
+            }
+
+            RPC Point
+            {
+                X = 6029.000000;
+                Y = -9600.000000;
+                Curve = 0;
+            }
+        }
+    }
+
+    RPC
+    {
+        Name = DistanceFade;
+
+        RPC Curve
+        {
+            Name = 1::b2306e72-d655-48c7-a05e-f8bdb06c52b8;
+            Property = 0;
+            Sound = 0;
+            Line Color = 4283649490;
+            Viewable = 1;
+
+            Variable Entry
+            {
+                Name = Distance;
+            }
+
+            RPC Point
+            {
+                X = 126.550865;
+                Y = 0.000000;
+                Curve = 0;
+            }
+
+            RPC Point
+            {
+                X = 997.518616;
+                Y = -745.833374;
+                Curve = 0;
+            }
+        }
+    }
+
+    RPC
+    {
+        Name = RPC Preset;
+
+        RPC Curve
+        {
+            Name = 1::c454cd6e-69db-468e-aeb0-eb7d4aeba895;
+            Property = 1;
+            Sound = 0;
+            Line Color = 4288911947;
+            Viewable = 1;
+
+            Variable Entry
+            {
+                Name = NumCueInstances;
+            }
+
+            RPC Point
+            {
+                X = 50.818859;
+                Y = 0.000000;
+                Curve = 0;
+            }
+
+            RPC Point
+            {
+                X = 682.666687;
+                Y = 0.000000;
+                Curve = 0;
+            }
+        }
+    }
+
+    Compression Preset
+    {
+        Name = XMA40;
+        Xbox Format Tag = 357;
+        Target Sample Rate = 48000;
+        XMA Quality = 40;
+        Find Best Quality = 0;
+        High Freq Cut = 0;
+        Loop = 0;
+        PC Format Tag = 2;
+        Samples Per Block = 128;
+    }
+}
+
+Wave Bank
+{
+    Name = waves1;
+    Xbox File = Xbox\waves1.xwb;
+    Windows File = Win\waves1.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = XMA40;
+    Xbox Bank Last Modified Low = 0;
+    Xbox Bank Last Modified High = 0;
+    PC Bank Last Modified Low = 0;
+    PC Bank Last Modified High = 0;
+    Header Last Modified Low = 0;
+    Header Last Modified High = 0;
+    Bank Last Revised Low = 622490629;
+    Bank Last Revised High = 30102404;
+
+    Wave
+    {
+        Name = bang_3;
+        File = effects\bang_3.wav;
+        Build Settings Last Modified Low = 184983766;
+        Build Settings Last Modified High = 29996679;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 141264;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2844977354;
+            Last Modified High = 29998351;
+        }
+    }
+
+    Wave
+    {
+        Name = 03 Metroid Metal Prime - Space Pirates;
+        File = music\03 Metroid Metal Prime - Space Pirates.wav;
+        Build Settings Last Modified Low = 2165520524;
+        Build Settings Last Modified High = 30102403;
+        Compression Preset Name = XMA40;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 306;
+            Play Region Length = 50753808;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2110466899;
+            Last Modified High = 30101638;
+        }
+    }
+
+    Wave
+    {
+        Name = 03 Super Metroid Metal - Boss Medley;
+        File = music\03 Super Metroid Metal - Boss Medley.wav;
+        Build Settings Last Modified Low = 2037216461;
+        Build Settings Last Modified High = 30102401;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 220;
+            Play Region Length = 74097408;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1840776560;
+            Last Modified High = 30101641;
+        }
+    }
+
+    Wave
+    {
+        Name = 04 Super Metroid Metal - Brinstar;
+        File = music\04 Super Metroid Metal - Brinstar.wav;
+        Build Settings Last Modified Low = 2037506477;
+        Build Settings Last Modified High = 30102401;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 218;
+            Play Region Length = 56422128;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2043418151;
+            Last Modified High = 30101641;
+        }
+    }
+
+    Wave
+    {
+        Name = 05 Super Metroid Metal - Lower Norfair;
+        File = music\05 Super Metroid Metal - Lower Norfair.wav;
+        Build Settings Last Modified Low = 2037636485;
+        Build Settings Last Modified High = 30102401;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 222;
+            Play Region Length = 50560944;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2214137915;
+            Last Modified High = 30101641;
+        }
+    }
+
+    Wave
+    {
+        Name = 06 Super Metroid Metal - Maridia;
+        File = music\06 Super Metroid Metal - Maridia.wav;
+        Build Settings Last Modified Low = 2037666487;
+        Build Settings Last Modified High = 30102401;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 216;
+            Play Region Length = 40760160;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2345835448;
+            Last Modified High = 30101641;
+        }
+    }
+
+    Wave
+    {
+        Name = 07 Metroid Metal Prime - Intro-Menu Theme;
+        File = music\07 Metroid Metal Prime - Intro-Menu Theme.wav;
+        Build Settings Last Modified Low = 2037686488;
+        Build Settings Last Modified High = 30102401;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 310;
+            Play Region Length = 46473168;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2911722729;
+            Last Modified High = 30101638;
+        }
+    }
+
+    Wave
+    {
+        Name = 08 Metroid Metal Prime - Phendrana Drifts;
+        File = music\08 Metroid Metal Prime - Phendrana Drifts.wav;
+        Build Settings Last Modified Low = 2037696488;
+        Build Settings Last Modified High = 30102401;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 310;
+            Play Region Length = 51878064;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3066111559;
+            Last Modified High = 30101638;
+        }
+    }
+
+    Wave
+    {
+        Name = 12 Metroid Metal - Intro;
+        File = music\12 Metroid Metal - Intro.wav;
+        Build Settings Last Modified Low = 2037746491;
+        Build Settings Last Modified High = 30102401;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 294;
+            Play Region Length = 4845120;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3528017979;
+            Last Modified High = 30101638;
+        }
+    }
+
+    Wave
+    {
+        Name = 18 Metroid Metal - The Theme;
+        File = music\18 Metroid Metal - The Theme.wav;
+        Build Settings Last Modified Low = 2037956503;
+        Build Settings Last Modified High = 30102401;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 298;
+            Play Region Length = 26939808;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4170614733;
+            Last Modified High = 30101638;
+        }
+    }
+
+    Wave
+    {
+        Name = 20 Super Metroid - Upper Crateria;
+        File = music\20 Super Metroid - Upper Crateria.wav;
+        Build Settings Last Modified Low = 2037966504;
+        Build Settings Last Modified High = 30102401;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 304;
+            Play Region Length = 52927056;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 197705858;
+            Last Modified High = 30101639;
+        }
+    }
+}
+
+Sound Bank
+{
+    Name = sounds1;
+    Xbox File = Xbox\sounds1.xsb;
+    Windows File = Win\sounds1.xsb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+
+    Sound
+    {
+        Name = bang_3;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Effect;
+        }
+
+        RPC Entry
+        {
+            RPC Name = DistanceFade;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaer Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Pitch Variation
+                {
+                    Min = -612;
+                    Max = -215;
+                    Operator = 0;
+                    New Variation On Loop = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = waves1;
+                    Bank Index = 0;
+                    Entry Name = bang_3;
+                    Entry Index = 0;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+
+            RPC Curve Entry
+            {
+                RPC Name = DistanceFade;
+                RPC Curve Name = 1::b2306e72-d655-48c7-a05e-f8bdb06c52b8;
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = 07 Metroid Metal Prime - Intro-Menu Theme;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Music;
+        }
+
+        RPC Entry
+        {
+            RPC Name = Fade In/Out;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaer Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = waves1;
+                    Bank Index = 0;
+                    Entry Name = 07 Metroid Metal Prime - Intro-Menu Theme;
+                    Entry Index = 6;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+
+            RPC Curve Entry
+            {
+                RPC Name = Fade In/Out;
+                RPC Curve Name = 1::d6f78bd6-9b2f-4fa0-8a25-8b6893accd90;
+            }
+
+            RPC Curve Entry
+            {
+                RPC Name = Fade In/Out;
+                RPC Curve Name = 1::e829f82e-ddb6-45d5-8ab4-fe13e16ee0f6;
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = 03 Metroid Metal Prime - Space Pirates;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Music;
+        }
+
+        RPC Entry
+        {
+            RPC Name = Fade In/Out;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaer Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = waves1;
+                    Bank Index = 0;
+                    Entry Name = 03 Metroid Metal Prime - Space Pirates;
+                    Entry Index = 1;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+
+            RPC Curve Entry
+            {
+                RPC Name = Fade In/Out;
+                RPC Curve Name = 1::d6f78bd6-9b2f-4fa0-8a25-8b6893accd90;
+            }
+
+            RPC Curve Entry
+            {
+                RPC Name = Fade In/Out;
+                RPC Curve Name = 1::e829f82e-ddb6-45d5-8ab4-fe13e16ee0f6;
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = 03 Super Metroid Metal - Boss Medley;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Music;
+        }
+
+        RPC Entry
+        {
+            RPC Name = Fade In/Out;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaer Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = waves1;
+                    Bank Index = 0;
+                    Entry Name = 03 Super Metroid Metal - Boss Medley;
+                    Entry Index = 2;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+
+            RPC Curve Entry
+            {
+                RPC Name = Fade In/Out;
+                RPC Curve Name = 1::d6f78bd6-9b2f-4fa0-8a25-8b6893accd90;
+            }
+
+            RPC Curve Entry
+            {
+                RPC Name = Fade In/Out;
+                RPC Curve Name = 1::e829f82e-ddb6-45d5-8ab4-fe13e16ee0f6;
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = 04 Super Metroid Metal - Brinstar;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Music;
+        }
+
+        RPC Entry
+        {
+            RPC Name = Fade In/Out;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaer Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = waves1;
+                    Bank Index = 0;
+                    Entry Name = 04 Super Metroid Metal - Brinstar;
+                    Entry Index = 3;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+
+            RPC Curve Entry
+            {
+                RPC Name = Fade In/Out;
+                RPC Curve Name = 1::d6f78bd6-9b2f-4fa0-8a25-8b6893accd90;
+            }
+
+            RPC Curve Entry
+            {
+                RPC Name = Fade In/Out;
+                RPC Curve Name = 1::e829f82e-ddb6-45d5-8ab4-fe13e16ee0f6;
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = 05 Super Metroid Metal - Lower Norfair;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Music;
+        }
+
+        RPC Entry
+        {
+            RPC Name = Fade In/Out;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaer Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = waves1;
+                    Bank Index = 0;
+                    Entry Name = 05 Super Metroid Metal - Lower Norfair;
+                    Entry Index = 4;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+
+            RPC Curve Entry
+            {
+                RPC Name = Fade In/Out;
+                RPC Curve Name = 1::d6f78bd6-9b2f-4fa0-8a25-8b6893accd90;
+            }
+
+            RPC Curve Entry
+            {
+                RPC Name = Fade In/Out;
+                RPC Curve Name = 1::e829f82e-ddb6-45d5-8ab4-fe13e16ee0f6;
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = 06 Super Metroid Metal - Maridia;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Music;
+        }
+
+        RPC Entry
+        {
+            RPC Name = Fade In/Out;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaer Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = waves1;
+                    Bank Index = 0;
+                    Entry Name = 06 Super Metroid Metal - Maridia;
+                    Entry Index = 5;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+
+            RPC Curve Entry
+            {
+                RPC Name = Fade In/Out;
+                RPC Curve Name = 1::d6f78bd6-9b2f-4fa0-8a25-8b6893accd90;
+            }
+
+            RPC Curve Entry
+            {
+                RPC Name = Fade In/Out;
+                RPC Curve Name = 1::e829f82e-ddb6-45d5-8ab4-fe13e16ee0f6;
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = 08 Metroid Metal Prime - Phendrana Drifts;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Music;
+        }
+
+        RPC Entry
+        {
+            RPC Name = Fade In/Out;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaer Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = waves1;
+                    Bank Index = 0;
+                    Entry Name = 08 Metroid Metal Prime - Phendrana Drifts;
+                    Entry Index = 7;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+
+            RPC Curve Entry
+            {
+                RPC Name = Fade In/Out;
+                RPC Curve Name = 1::d6f78bd6-9b2f-4fa0-8a25-8b6893accd90;
+            }
+
+            RPC Curve Entry
+            {
+                RPC Name = Fade In/Out;
+                RPC Curve Name = 1::e829f82e-ddb6-45d5-8ab4-fe13e16ee0f6;
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = 12 Metroid Metal - Intro;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Music;
+        }
+
+        RPC Entry
+        {
+            RPC Name = Fade In/Out;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaer Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = waves1;
+                    Bank Index = 0;
+                    Entry Name = 12 Metroid Metal - Intro;
+                    Entry Index = 8;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+
+            RPC Curve Entry
+            {
+                RPC Name = Fade In/Out;
+                RPC Curve Name = 1::d6f78bd6-9b2f-4fa0-8a25-8b6893accd90;
+            }
+
+            RPC Curve Entry
+            {
+                RPC Name = Fade In/Out;
+                RPC Curve Name = 1::e829f82e-ddb6-45d5-8ab4-fe13e16ee0f6;
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = 18 Metroid Metal - The Theme;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Music;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaer Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = waves1;
+                    Bank Index = 0;
+                    Entry Name = 18 Metroid Metal - The Theme;
+                    Entry Index = 9;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = 20 Super Metroid - Upper Crateria;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Music;
+        }
+
+        RPC Entry
+        {
+            RPC Name = Fade In/Out;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaer Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = waves1;
+                    Bank Index = 0;
+                    Entry Name = 20 Super Metroid - Upper Crateria;
+                    Entry Index = 10;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+
+            RPC Curve Entry
+            {
+                RPC Name = Fade In/Out;
+                RPC Curve Name = 1::d6f78bd6-9b2f-4fa0-8a25-8b6893accd90;
+            }
+
+            RPC Curve Entry
+            {
+                RPC Name = Fade In/Out;
+                RPC Curve Name = 1::e829f82e-ddb6-45d5-8ab4-fe13e16ee0f6;
+            }
+        }
+    }
+
+    Cue
+    {
+        Name = bang_3;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = bang_3;
+            Index = 0;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+
+    Cue
+    {
+        Name = Menu;
+
+        Variation
+        {
+            Variation Type = 0;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = 07 Metroid Metal Prime - Intro-Menu Theme;
+            Index = 1;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+
+    Cue
+    {
+        Name = Exploration;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = 20 Super Metroid - Upper Crateria;
+            Index = 10;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+
+        Sound Entry
+        {
+            Name = 08 Metroid Metal Prime - Phendrana Drifts;
+            Index = 7;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+
+        Sound Entry
+        {
+            Name = 06 Super Metroid Metal - Maridia;
+            Index = 6;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+
+        Sound Entry
+        {
+            Name = 05 Super Metroid Metal - Lower Norfair;
+            Index = 5;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+
+        Sound Entry
+        {
+            Name = 04 Super Metroid Metal - Brinstar;
+            Index = 4;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+
+        Instance Limit
+        {
+            Max Instances = 1;
+            Behavior = 0;
+
+            Crossfade
+            {
+                Fade In = 0;
+                Fade Out = 0;
+                Crossfade Type = 0;
+            }
+        }
+    }
+
+    Cue
+    {
+        Name = Win;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = 12 Metroid Metal - Intro;
+            Index = 8;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+}

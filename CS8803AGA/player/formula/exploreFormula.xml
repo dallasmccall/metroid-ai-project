@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:player="CS8803AGAGameLibrary.player">
+  <Asset Type="player:ModelFormula">
+    <prefixFormula>+roomsVisited*30roomsExplored</prefixFormula>
+    <postfixFormula>roomsExplored30*roomsVisited+</postfixFormula>
+    <formula />
+    <formulaList>
+      <Item>roomsExplored</Item>
+      <Item>30</Item>
+      <Item>*</Item>
+      <Item>roomsVisited</Item>
+      <Item>+</Item>
+    </formulaList>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="CS8803AGAGameLibrary.AnimationSet">
+    <anims>
+      <Item>
+        <name>up</name>
+        <sprites>
+          <Item>
+            <box>0 0 70 50</box>
+            <duration>7</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+          <Item>
+            <box>70 0 70 50</box>
+            <duration>7</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+          <Item>
+            <box>140 0 70 50</box>
+            <duration>7</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+          <Item>
+            <box>210 0 70 50</box>
+            <duration>7</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>true</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone>idle</whenDone>
+      </Item>
+      <Item>
+        <name>down</name>
+        <sprites>
+          <Item>
+            <box>0 50 70 50</box>
+            <duration>7</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+          <Item>
+            <box>70 50 70 50</box>
+            <duration>7</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+          <Item>
+            <box>140 50 70 50</box>
+            <duration>7</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+          <Item>
+            <box>210 50 70 50</box>
+            <duration>7</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>true</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone>idle</whenDone>
+      </Item>
+      <Item>
+        <name>left</name>
+        <sprites>
+          <Item>
+            <box>0 100 70 50</box>
+            <duration>7</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>true</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone>idle</whenDone>
+      </Item>
+      <Item>
+        <name>right</name>
+        <sprites>
+          <Item>
+            <box>0 150 70 50</box>
+            <duration>7</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>true</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone>idle</whenDone>
+      </Item>
+      <Item>
+        <name>attackleft</name>
+        <sprites>
+          <Item>
+            <box>0 200 70 50</box>
+            <duration>7</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+          <Item>
+            <box>70 200 70 50</box>
+            <duration>7</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+        </sprites>
+        <priority>1</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone>idle</whenDone>
+      </Item>
+      <Item>
+        <name>attackright</name>
+        <sprites>
+          <Item>
+            <box>0 250 70 50</box>
+            <duration>7</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+          <Item>
+            <box>70 250 70 50</box>
+            <duration>7</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+        </sprites>
+        <priority>1</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone>idle</whenDone>
+      </Item>
+      <Item>
+        <name>attackdown</name>
+        <sprites>
+          <Item>
+            <box>0 300 70 50</box>
+            <duration>7</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+          <Item>
+            <box>70 300 70 50</box>
+            <duration>7</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+          <Item>
+            <box>140 300 70 50</box>
+            <duration>7</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+        </sprites>
+        <priority>1</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone>idle</whenDone>
+      </Item>
+      <Item>
+        <name>attackup</name>
+        <sprites>
+          <Item>
+            <box>0 350 70 50</box>
+            <duration>7</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+          <Item>
+            <box>70 350 70 50</box>
+            <duration>7</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+        </sprites>
+        <priority>1</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone>idle</whenDone>
+      </Item>
+    </anims>
+  </Asset>
+</XnaContent>

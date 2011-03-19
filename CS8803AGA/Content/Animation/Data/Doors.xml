@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="CS8803AGAGameLibrary.AnimationSet">
+    <anims>
+      <Item>
+        <name>BlueClosed</name>
+        <sprites>
+          <Item>
+            <box>0 0 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>BlueOpening</name>
+        <sprites>
+          <Item>
+            <box>0 65 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>0 130 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>0 195 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>0 260 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>3</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>BlueOpen</name>
+        <sprites>
+          <Item>
+            <box>0 260 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>BlueClosing</name>
+        <sprites>
+          <Item>
+            <box>0 195 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>0 130 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>0 65 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>0 0 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>3</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>RedClosed</name>
+        <sprites>
+          <Item>
+            <box>65 0 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>RedOpening</name>
+        <sprites>
+          <Item>
+            <box>65 65 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>65 130 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>65 195 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>65 260 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>3</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>RedOpen</name>
+        <sprites>
+          <Item>
+            <box>65 260 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>RedClosing</name>
+        <sprites>
+          <Item>
+            <box>65 195 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>65 130 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>65 65 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>65 0 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>3</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>GreenClosed</name>
+        <sprites>
+          <Item>
+            <box>130 0 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>GreenOpening</name>
+        <sprites>
+          <Item>
+            <box>130 65 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>130 130 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>130 195 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>130 260 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>3</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>GreenOpen</name>
+        <sprites>
+          <Item>
+            <box>130 260 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>GreenClosing</name>
+        <sprites>
+          <Item>
+            <box>130 195 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>130 130 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>130 65 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>130 0 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>3</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>YellowClosed</name>
+        <sprites>
+          <Item>
+            <box>195 0 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>YellowOpening</name>
+        <sprites>
+          <Item>
+            <box>195 65 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>195 130 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>195 195 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>195 260 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>3</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>YellowOpen</name>
+        <sprites>
+          <Item>
+            <box>195 260 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>YellowClosing</name>
+        <sprites>
+          <Item>
+            <box>195 195 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>195 130 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>195 65 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>195 0 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>3</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+	  <Item>
+        <name>MetalClosed</name>
+        <sprites>
+          <Item>
+            <box>260 0 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>MetalOpening</name>
+        <sprites>
+          <Item>
+            <box>260 65 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>260 130 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>260 195 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>260 260 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>3</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>MetalOpen</name>
+        <sprites>
+          <Item>
+            <box>260 260 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>MetalClosing</name>
+        <sprites>
+          <Item>
+            <box>260 195 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>260 130 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>260 65 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>260 0 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>3</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+    </anims>
+  </Asset>
+</XnaContent>

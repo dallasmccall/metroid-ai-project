@@ -1,0 +1,1656 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="CS8803AGAGameLibrary.AnimationSet">
+    <anims>
+      <Item>
+        <name>IdleLeftNoneCrouch</name>
+        <sprites>
+          <Item>
+            <box>8 18 21 32</box>
+            <duration>4</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>9 0</shootPoint>
+          </Item>
+          <Item>
+            <box>35 18 21 32</box>
+            <duration>4</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>9 0</shootPoint>
+          </Item>
+          <Item>
+            <box>60 18 21 32</box>
+            <duration>4</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>9 0</shootPoint>
+          </Item>
+          <Item>
+            <box>85 18 21 32</box>
+            <duration>4</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>9 0</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>IdleLeftNoneStand</name>
+        <sprites>
+          <Item>
+            <box>112 8 26 43</box>
+            <duration>4</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>12 5</shootPoint>
+          </Item>
+          <Item>
+            <box>140 8 26 43</box>
+            <duration>4</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>12 5</shootPoint>
+          </Item>
+          <Item>
+            <box>168 8 26 43</box>
+            <duration>4</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>12 5</shootPoint>
+          </Item>
+          <Item>
+            <box>195 8 26 43</box>
+            <duration>4</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>12 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>IdleRightNoneStand</name>
+        <sprites>
+          <Item>
+            <box>225 8 26 43</box>
+            <duration>4</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-11 5</shootPoint>
+          </Item>
+          <Item>
+            <box>253 8 26 43</box>
+            <duration>4</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-11 5</shootPoint>
+          </Item>
+          <Item>
+            <box>280 8 26 43</box>
+            <duration>4</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-11 5</shootPoint>
+          </Item>
+          <Item>
+            <box>308 8 26 43</box>
+            <duration>4</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-11 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>IdleRightNoneCrouch</name>
+        <sprites>
+          <Item>
+            <box>337 19 21 32</box>
+            <duration>4</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-9 0</shootPoint>
+          </Item>
+          <Item>
+            <box>362 19 21 32</box>
+            <duration>4</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-9 0</shootPoint>
+          </Item>
+          <Item>
+            <box>386 19 21 32</box>
+            <duration>4</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-9 0</shootPoint>
+          </Item>
+          <Item>
+            <box>410 19 21 32</box>
+            <duration>4</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-9 0</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>TurningRightNoneStand</name>
+        <sprites>
+          <Item>
+            <box>13 57 23 46</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>10 8</shootPoint>
+          </Item>
+          <Item>
+            <box>42 57 24 46</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>6 8</shootPoint>
+          </Item>
+          <Item>
+            <box>73 57 21 46</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-5 8</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>TurningRightDownStand</name>
+        <sprites>
+          <Item>
+            <box>108 57 20 46</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-3 -1</shootPoint>
+          </Item>
+          <Item>
+            <box>134 57 24 46</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>8 -1</shootPoint>
+          </Item>
+          <Item>
+            <box>165 57 20 46</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 -1</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>TurningRightUpStand</name>
+        <sprites>
+          <Item>
+            <box>200 57 20 46</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>0 21</shootPoint>
+          </Item>
+          <Item>
+            <box>225 58 24 46</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>7 21</shootPoint>
+          </Item>
+          <Item>
+            <box>255 57 20 46</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>1 21</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>TurningRightNoneCrouch</name>
+        <sprites>
+          <Item>
+            <box>290 63 23 35</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>10 2</shootPoint>
+          </Item>
+          <Item>
+            <box>319 63 24 35</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>6 3</shootPoint>
+          </Item>
+          <Item>
+            <box>350 63 22 35</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-4 2</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>TurningRightDownCrouch</name>
+        <sprites>
+          <Item>
+            <box>382 63 23 35</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>4 -7</shootPoint>
+          </Item>
+          <Item>
+            <box>411 63 24 35</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>8 -7</shootPoint>
+          </Item>
+          <Item>
+            <box>441 63 21 35</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 -7</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>TurningRightUpCrouch</name>
+        <sprites>
+          <Item>
+            <box>470 63 22 35</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>7 16</shootPoint>
+          </Item>
+          <Item>
+            <box>496 63 24 35</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>7 16</shootPoint>
+          </Item>
+          <Item>
+            <box>526 63 20 35</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>2 16</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>TurningLeftNoneStand</name>
+        <sprites>
+          <Item>
+            <box>73 57 21 46</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-5 8</shootPoint>
+          </Item>
+          <Item>
+            <box>42 57 24 46</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>6 8</shootPoint>
+          </Item>
+          <Item>
+            <box>13 57 23 46</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>10 8</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>TurningLeftDownStand</name>
+        <sprites>
+          <Item>
+            <box>165 57 20 46</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 -1</shootPoint>
+          </Item>
+          <Item>
+            <box>134 57 24 46</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>8 -1</shootPoint>
+          </Item>
+          <Item>
+            <box>108 57 20 46</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-3 -1</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>TurningLeftUpStand</name>
+        <sprites>
+          <Item>
+            <box>255 57 20 46</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>1 21</shootPoint>
+          </Item>
+          <Item>
+            <box>225 58 24 46</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>7 21</shootPoint>
+          </Item>
+          <Item>
+            <box>200 57 20 46</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>0 21</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>TurningLeftNoneCrouch</name>
+        <sprites>
+          <Item>
+            <box>350 63 22 35</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-4 2</shootPoint>
+          </Item>
+          <Item>
+            <box>319 63 24 35</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>6 3</shootPoint>
+          </Item>
+          <Item>
+            <box>290 63 23 35</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>10 2</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>TurningLeftDownCrouch</name>
+        <sprites>
+          <Item>
+            <box>441 63 21 35</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 -7</shootPoint>
+          </Item>
+          <Item>
+            <box>411 63 24 35</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>8 -7</shootPoint>
+          </Item>
+          <Item>
+            <box>382 63 23 35</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>4 -7</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>TurningLeftUpCrouch</name>
+        <sprites>
+          <Item>
+            <box>526 63 20 35</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>2 16</shootPoint>
+          </Item>
+          <Item>
+            <box>496 63 24 35</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>7 16</shootPoint>
+          </Item>
+          <Item>
+            <box>470 63 22 35</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>7 16</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>IdleRightDownStand</name>
+        <sprites>
+          <Item>
+            <box>8 114 31 42</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-14 -1</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>IdleRightUpStand</name>
+        <sprites>
+          <Item>
+            <box>48 108 32 48</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-13 23</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>IdleRightUpHoldStand</name>
+        <sprites>
+          <Item>
+            <box>83 107 20 52</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-2 25</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>IdleRightDownCrouch</name>
+        <sprites>
+          <Item>
+            <box>109 128 27 31</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-12 -7</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>IdleRightUpCrouch</name>
+        <sprites>
+          <Item>
+            <box>142 123 28 37</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-11 17</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>IdleRightUpHoldCrouch</name>
+        <sprites>
+          <Item>
+            <box>178 117 18 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>1 20</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>IdleLeftDownStand</name>
+        <sprites>
+          <Item>
+            <box>200 118 31 42</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>14 -1</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>IdleLeftUpStand</name>
+        <sprites>
+          <Item>
+            <box>235 111 32 49</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>14 23</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>IdleLeftUpHoldStand</name>
+        <sprites>
+          <Item>
+            <box>276 106 20 54</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>3 26</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>IdleLeftDownCrouch</name>
+        <sprites>
+          <Item>
+            <box>299 129 27 31</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>12 -7</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>IdleLeftUpCrouch</name>
+        <sprites>
+          <Item>
+            <box>329 122 28 38</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>12 18</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>IdleLeftUpHoldCrouch</name>
+        <sprites>
+          <Item>
+            <box>360 117 18 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>0 20</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>MovingLeftNone</name>
+        <sprites>
+          <Item>
+            <box>4 211 29 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-5 0</offset>
+            <shootPoint>13 8</shootPoint>
+          </Item>
+          <Item>
+            <box>36 211 33 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-3 0</offset>
+            <shootPoint>15 8</shootPoint>
+          </Item>
+          <Item>
+            <box>71 210 36 44</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>17 9</shootPoint>
+          </Item>
+          <Item>
+            <box>109 212 38 42</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>18 8</shootPoint>
+          </Item>
+          <Item>
+            <box>149 211 37 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-1 0</offset>
+            <shootPoint>17 8</shootPoint>
+          </Item>
+          <Item>
+            <box>188 211 30 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-4 0</offset>
+            <shootPoint>14 8</shootPoint>
+          </Item>
+          <Item>
+            <box>220 210 32 44</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-3 0</offset>
+            <shootPoint>15 9</shootPoint>
+          </Item>
+          <Item>
+            <box>254 210 36 44</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-1 0</offset>
+            <shootPoint>17 9</shootPoint>
+          </Item>
+          <Item>
+            <box>291 212 39 42</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-1 0</offset>
+            <shootPoint>18 8</shootPoint>
+          </Item>
+          <Item>
+            <box>333 211 38 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>18 8</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>MovingRightNone</name>
+        <sprites>
+          <Item>
+            <box>375 211 29 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>5 -1</offset>
+            <shootPoint>-13 8</shootPoint>
+          </Item>
+          <Item>
+            <box>408 211 33 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>3 0</offset>
+            <shootPoint>-15 8</shootPoint>
+          </Item>
+          <Item>
+            <box>443 211 36 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>2 0</offset>
+            <shootPoint>-16 8</shootPoint>
+          </Item>
+          <Item>
+            <box>483 213 38 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>1 0</offset>
+            <shootPoint>-17 8</shootPoint>
+          </Item>
+          <Item>
+            <box>523 213 37 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>1 0</offset>
+            <shootPoint>-17 8</shootPoint>
+          </Item>
+          <Item>
+            <box>563 213 30 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>5 -1</offset>
+            <shootPoint>-13 8</shootPoint>
+          </Item>
+          <Item>
+            <box>595 212 32 44</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>4 0</offset>
+            <shootPoint>-14 9</shootPoint>
+          </Item>
+          <Item>
+            <box>630 212 36 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>2 0</offset>
+            <shootPoint>-16 8</shootPoint>
+          </Item>
+          <Item>
+            <box>668 212 39 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-18 8</shootPoint>
+          </Item>
+          <Item>
+            <box>709 210 38 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>1 0</offset>
+            <shootPoint>-17 8</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>MovingLeftUp</name>
+        <sprites>
+          <Item>
+            <box>7 259 27 48</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-3 0</offset>
+            <shootPoint>11 23</shootPoint>
+          </Item>
+          <Item>
+            <box>37 259 31 48</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-1 0</offset>
+            <shootPoint>13 23</shootPoint>
+          </Item>
+          <Item>
+            <box>70 259 34 48</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>1 0</offset>
+            <shootPoint>15 23</shootPoint>
+          </Item>
+          <Item>
+            <box>106 259 36 48</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>2 0</offset>
+            <shootPoint>16 23</shootPoint>
+          </Item>
+          <Item>
+            <box>144 259 35 48</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>1 0</offset>
+            <shootPoint>15 23</shootPoint>
+          </Item>
+          <Item>
+            <box>181 258 28 48</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-2 0</offset>
+            <shootPoint>12 23</shootPoint>
+          </Item>
+          <Item>
+            <box>211 258 30 48</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-1 0</offset>
+            <shootPoint>13 23</shootPoint>
+          </Item>
+          <Item>
+            <box>242 258 34 48</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>1 0</offset>
+            <shootPoint>15 23</shootPoint>
+          </Item>
+          <Item>
+            <box>279 258 37 48</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>2 0</offset>
+            <shootPoint>16 23</shootPoint>
+          </Item>
+          <Item>
+            <box>318 258 36 48</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>2 0</offset>
+            <shootPoint>16 23</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>MovingRightUp</name>
+        <sprites>
+          <Item>
+            <box>356 258 27 48</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>2 0</offset>
+            <shootPoint>-11 23</shootPoint>
+          </Item>
+          <Item>
+            <box>385 258 31 48</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-13 23</shootPoint>
+          </Item>
+          <Item>
+            <box>418 258 34 48</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-2 0</offset>
+            <shootPoint>-14 23</shootPoint>
+          </Item>
+          <Item>
+            <box>454 258 36 48</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-2 0</offset>
+            <shootPoint>-15 23</shootPoint>
+          </Item>
+          <Item>
+            <box>492 258 35 48</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-2 0</offset>
+            <shootPoint>-16 23</shootPoint>
+          </Item>
+          <Item>
+            <box>529 258 28 48</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>3 0</offset>
+            <shootPoint>-11 23</shootPoint>
+          </Item>
+          <Item>
+            <box>559 258 30 48</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>1 0</offset>
+            <shootPoint>-12 23</shootPoint>
+          </Item>
+          <Item>
+            <box>591 258 34 48</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-14 23</shootPoint>
+          </Item>
+          <Item>
+            <box>627 258 37 48</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-2 0</offset>
+            <shootPoint>-16 23</shootPoint>
+          </Item>
+          <Item>
+            <box>666 258 36 48</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-1 0</offset>
+            <shootPoint>-15 23</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>MovingLeftDown</name>
+        <sprites>
+          <Item>
+            <box>8 314 26 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-2 0</offset>
+            <shootPoint>12 0</shootPoint>
+          </Item>
+          <Item>
+            <box>36 314 30 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>14 0</shootPoint>
+          </Item>
+          <Item>
+            <box>68 314 33 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>1 0</offset>
+            <shootPoint>15 0</shootPoint>
+          </Item>
+          <Item>
+            <box>103 314 35 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>2 0</offset>
+            <shootPoint>16 0</shootPoint>
+          </Item>
+          <Item>
+            <box>140 314 34 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>2 0</offset>
+            <shootPoint>16 0</shootPoint>
+          </Item>
+          <Item>
+            <box>176 314 27 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-2 0</offset>
+            <shootPoint>12 0</shootPoint>
+          </Item>
+          <Item>
+            <box>205 314 29 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-1 0</offset>
+            <shootPoint>13 0</shootPoint>
+          </Item>
+          <Item>
+            <box>236 314 33 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>1 0</offset>
+            <shootPoint>15 0</shootPoint>
+          </Item>
+          <Item>
+            <box>271 314 36 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>3 0</offset>
+            <shootPoint>17 0</shootPoint>
+          </Item>
+          <Item>
+            <box>310 314 35 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>2 0</offset>
+            <shootPoint>16 0</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>MovingRightDown</name>
+        <sprites>
+          <Item>
+            <box>348 314 26 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>3 0</offset>
+            <shootPoint>-11 0</shootPoint>
+          </Item>
+          <Item>
+            <box>376 314 30 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>1 0</offset>
+            <shootPoint>-13 0</shootPoint>
+          </Item>
+          <Item>
+            <box>408 314 33 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-1 0</offset>
+            <shootPoint>-15 0</shootPoint>
+          </Item>
+          <Item>
+            <box>443 314 35 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-2 0</offset>
+            <shootPoint>-16 0</shootPoint>
+          </Item>
+          <Item>
+            <box>480 314 34 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-1 0</offset>
+            <shootPoint>-15 0</shootPoint>
+          </Item>
+          <Item>
+            <box>516 315 27 42</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>2 0</offset>
+            <shootPoint>-12 0</shootPoint>
+          </Item>
+          <Item>
+            <box>546 314 29 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>1 0</offset>
+            <shootPoint>-13 0</shootPoint>
+          </Item>
+          <Item>
+            <box>577 314 33 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-1 0</offset>
+            <shootPoint>-15 0</shootPoint>
+          </Item>
+          <Item>
+            <box>612 314 36 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-2 0</offset>
+            <shootPoint>-16 0</shootPoint>
+          </Item>
+          <Item>
+            <box>651 314 35 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>-2 0</offset>
+            <shootPoint>-16 0</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>TakeoffLeft</name>
+        <sprites>
+          <Item>
+            <box>3 361 18 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>8 7</shootPoint>
+          </Item>
+          <Item>
+            <box>23 360 23 45</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>10 13</shootPoint>
+          </Item>
+          <Item>
+            <box>50 361 19 38</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>6 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>AirborneLeftNone</name>
+        <sprites>
+          <Item>
+            <box>75 361 19 37</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>6 2</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>LandingLeft</name>
+        <sprites>
+          <Item>
+            <box>99 361 18 40</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>6 6</shootPoint>
+          </Item>
+          <Item>
+            <box>122 361 22 45</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>0 8</shootPoint>
+          </Item>
+          <Item>
+            <box>148 361 19 40</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>1 4</shootPoint>
+          </Item>
+          <Item>
+            <box>172 361 21 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>4 3</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>TakeoffRight</name>
+        <sprites>
+          <Item>
+            <box>195 361 18 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-4 0</shootPoint>
+          </Item>
+          <Item>
+            <box>218 361 23 45</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>2 5</shootPoint>
+          </Item>
+          <Item>
+            <box>245 361 19 38</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-2 -2</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>AirborneRightNone</name>
+        <sprites>
+          <Item>
+            <box>270 361 19 37</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-6 1</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>LandingRight</name>
+        <sprites>
+          <Item>
+            <box>292 361 18 40</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-7 9</shootPoint>
+          </Item>
+          <Item>
+            <box>314 361 22 45</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-8 13</shootPoint>
+          </Item>
+          <Item>
+            <box>339 361 19 40</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-5 3</shootPoint>
+          </Item>
+          <Item>
+            <box>362 361 21 43</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-2 1</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>AirborneRightDown</name>
+        <sprites>
+          <Item>
+            <box>35 166 26 36</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-11 -3</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>AirborneRightUp</name>
+        <sprites>
+          <Item>
+            <box>92 168 27 38</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-11 18</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>AirborneRightDownHold</name>
+        <sprites>
+          <Item>
+            <box>120 171 21 35</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-6 -10</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>AirborneRightUpHold</name>
+        <sprites>
+          <Item>
+            <box>145 162 22 44</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>2 21</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>AirborneLeftDown</name>
+        <sprites>
+          <Item>
+            <box>196 167 26 36</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>12 -3</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>AirborneLeftUp</name>
+        <sprites>
+          <Item>
+            <box>251 165 27 38</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>11 18</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>AirborneLeftDownHold</name>
+        <sprites>
+          <Item>
+            <box>281 166 21 35</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>7 -10</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>AirborneLeftUpHold</name>
+        <sprites>
+          <Item>
+            <box>304 162 22 42</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-1 20</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>SpinRight</name>
+        <sprites>
+          <Item>
+            <box>26 409 16 31</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-5 1</shootPoint>
+          </Item>
+          <Item>
+            <box>46 411 25 28</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-3 -1</shootPoint>
+          </Item>
+          <Item>
+            <box>74 412 31 16</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-2 -5</shootPoint>
+          </Item>
+          <Item>
+            <box>108 411 28 25</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>2 -4</shootPoint>
+          </Item>
+          <Item>
+            <box>141 411 16 31</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>6 -1</shootPoint>
+          </Item>
+          <Item>
+            <box>161 412 25 28</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>4 2</shootPoint>
+          </Item>
+          <Item>
+            <box>191 415 31 16</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>1 6</shootPoint>
+          </Item>
+          <Item>
+            <box>226 411 28 25</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-2 4</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>SpinLeft</name>
+        <sprites>
+          <Item>
+            <box>513 409 16 31</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>6 2</shootPoint>
+          </Item>
+          <Item>
+            <box>484 411 25 28</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>4 -1</shootPoint>
+          </Item>
+          <Item>
+            <box>450 412 31 16</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>2 -5</shootPoint>
+          </Item>
+          <Item>
+            <box>419 411 28 25</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-1 -4</shootPoint>
+          </Item>
+          <Item>
+            <box>398 411 16 31</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-5 -2</shootPoint>
+          </Item>
+          <Item>
+            <box>369 412 25 28</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-4 2</shootPoint>
+          </Item>
+          <Item>
+            <box>333 415 31 16</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-2 6</shootPoint>
+          </Item>
+          <Item>
+            <box>301 411 28 25</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>2 4</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>Ball</name>
+        <sprites>
+          <Item>
+            <box>13 722 16 16</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>37 722 16 16</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>61 722 16 16</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>86 722 16 16</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>109 722 16 16</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>130 722 16 16</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+    </anims>
+  </Asset>
+</XnaContent>

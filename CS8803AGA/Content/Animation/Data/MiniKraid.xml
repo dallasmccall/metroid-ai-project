@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="CS8803AGAGameLibrary.AnimationSet">
+    <anims>
+      <Item>
+        <name>LeftIdle</name>
+        <sprites>
+          <Item>
+            <box>0 1 59 61</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>18 9</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>true</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>LeftMove</name>
+        <sprites>
+          <Item>
+            <box>68 0 64 64</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>15 11</shootPoint>
+          </Item>
+          <Item>
+            <box>142 0 56 63</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>19 10</shootPoint>
+          </Item>
+          <Item>
+            <box>211 1 57 62</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>19 10</shootPoint>
+          </Item>
+          <Item>
+            <box>280 0 59 62</box>
+            <duration>2</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>20 11</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>true</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>LeftOpen</name>
+        <sprites>
+          <Item>
+            <box>0 70 59 62</box>
+            <duration>3</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+          <Item>
+            <box>70 69 59 64</box>
+            <duration>3</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>5 5</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>RightIdle</name>
+        <sprites>
+          <Item>
+            <box>280 165 59 61</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-19 8</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>RightMove</name>
+        <sprites>
+          <Item>
+            <box>207 164 64 64</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-15 10</shootPoint>
+          </Item>
+          <Item>
+            <box>141 164 56 63</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-19 9</shootPoint>
+          </Item>
+          <Item>
+            <box>71 165 57 62</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-20 9</shootPoint>
+          </Item>
+          <Item>
+            <box>0 164 59 62</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-21 9</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+      <Item>
+        <name>RightOpen</name>
+        <sprites>
+          <Item>
+            <box>280 234 59 62</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-21 9</shootPoint>
+          </Item>
+          <Item>
+            <box>210 233 59 64</box>
+            <duration>1</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+            <shootPoint>-21 8</shootPoint>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>false</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone Null="true" />
+      </Item>
+    </anims>
+  </Asset>
+</XnaContent>

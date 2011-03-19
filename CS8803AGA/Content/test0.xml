@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="CS8803AGAGameLibrary.AnimationSet">
+    <anims>
+      <Item>
+        <name>right</name>
+        <sprites>
+          <Item>
+            <box>0 0 16 23</box>
+            <duration>5</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+          <Item>
+            <box>16 0 16 23</box>
+            <duration>5</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>true</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone>idle</whenDone>
+      </Item>
+      <Item>
+        <name>left</name>
+        <sprites>
+          <Item>
+            <box>0 23 16 23</box>
+            <duration>5</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+          <Item>
+            <box>16 23 16 23</box>
+            <duration>5</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>true</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone>idle</whenDone>
+      </Item>
+      <Item>
+        <name>up</name>
+        <sprites>
+          <Item>
+            <box>0 46 16 23</box>
+            <duration>5</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+          <Item>
+            <box>16 46 16 23</box>
+            <duration>5</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>true</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone>idle</whenDone>
+      </Item>
+      <Item>
+        <name>down</name>
+        <sprites>
+          <Item>
+            <box>0 69 16 23</box>
+            <duration>5</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+          <Item>
+            <box>16 69 16 23</box>
+            <duration>5</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>true</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone>idle</whenDone>
+      </Item>
+      <Item>
+        <name>upright</name>
+        <sprites>
+          <Item>
+            <box>0 92 16 23</box>
+            <duration>5</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+          <Item>
+            <box>16 92 16 23</box>
+            <duration>5</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>true</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone>idle</whenDone>
+      </Item>
+      <Item>
+        <name>downleft</name>
+        <sprites>
+          <Item>
+            <box>0 115 16 23</box>
+            <duration>5</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+          <Item>
+            <box>16 115 16 23</box>
+            <duration>5</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>true</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone>idle</whenDone>
+      </Item>
+      <Item>
+        <name>upleft</name>
+        <sprites>
+          <Item>
+            <box>0 138 16 23</box>
+            <duration>5</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+          <Item>
+            <box>16 138 16 23</box>
+            <duration>5</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>true</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone>idle</whenDone>
+      </Item>
+      <Item>
+        <name>downright</name>
+        <sprites>
+          <Item>
+            <box>0 161 16 23</box>
+            <duration>5</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+          <Item>
+            <box>16 161 16 23</box>
+            <duration>5</duration>
+            <action Null="true" />
+            <offset>0 0</offset>
+          </Item>
+        </sprites>
+        <priority>0</priority>
+        <loops>true</loops>
+        <idleFrame>0</idleFrame>
+        <whenDone>idle</whenDone>
+      </Item>
+    </anims>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:player="CS8803AGAGameLibrary.player">
+  <Asset Type="player:ModelFormula">
+    <prefixFormula>++shots*30accuracy-*2.0damageDone*0.5damageTaken</prefixFormula>
+    <postfixFormula>damageTaken0.5*damageDone2.0*-accuracy30*shots++</postfixFormula>
+    <formula />
+    <formulaList>
+      <Item>damageTaken</Item>
+      <Item>0.5</Item>
+      <Item>*</Item>
+      <Item>damageDone</Item>
+      <Item>2.0</Item>
+      <Item>*</Item>
+      <Item>-</Item>
+      <Item>accuracy</Item>
+      <Item>30</Item>
+      <Item>*</Item>
+      <Item>shots</Item>
+      <Item>+</Item>
+      <Item>+</Item>
+    </formulaList>
+  </Asset>
+</XnaContent>

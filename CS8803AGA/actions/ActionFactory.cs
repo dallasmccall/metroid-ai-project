@@ -1,7 +1,7 @@
 ﻿using System;
-using CS8803AGAGameLibrary.actions;
+using MetroidAIGameLibrary.actions;
 
-namespace CS8803AGA.actions
+namespace MetroidAI.actions
 {
     /// <summary>
     /// ActionFactory can be used to construct Actions from ActionInfo

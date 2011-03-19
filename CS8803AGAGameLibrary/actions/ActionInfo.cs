@@ -5,7 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using System.ComponentModel;
 
-namespace CS8803AGAGameLibrary.actions
+namespace MetroidAIGameLibrary.actions
 {
     /// <summary>
     /// Contains metadata for attaching an in-game Action to an Animation.

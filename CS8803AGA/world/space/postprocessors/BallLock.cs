@@ -5,7 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using System.Threading;
 
-namespace CS8803AGA.world.space.postprocessors
+namespace MetroidAI.world.space.postprocessors
 {
     class BallLock : IScreenPostProcessor
     {
@@ -63,7 +63,7 @@ namespace CS8803AGA.world.space.postprocessors
                     fractal.fractal,
                     Zone.TILE_WIDTH,
                     Zone.TILE_HEIGHT,
-                    new Dictionary<Point, CS8803AGA.GridUtils.TileConfigurer>());
+                    new Dictionary<Point, MetroidAI.GridUtils.TileConfigurer>());
             
             foreach (Point p in wall)
             {
@@ -101,7 +101,7 @@ namespace CS8803AGA.world.space.postprocessors
                     line.fractal,
                     Zone.TILE_WIDTH,
                     Zone.TILE_HEIGHT,
-                    new Dictionary<Point, CS8803AGA.GridUtils.TileConfigurer>());
+                    new Dictionary<Point, MetroidAI.GridUtils.TileConfigurer>());
 
             Point endTile = new Point(end.X / Zone.TILE_WIDTH, end.Y / Zone.TILE_HEIGHT);
             zone.TileDebugLabels[globalScreenCoord][endTile] = "End";

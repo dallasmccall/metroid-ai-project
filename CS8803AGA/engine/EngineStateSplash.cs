@@ -22,9 +22,9 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
-using CS8803AGA.audio;
+using MetroidAI.audio;
 
-namespace CS8803AGA.engine
+namespace MetroidAI.engine
 {
     public class EngineStateSplash : IEngineState
     {

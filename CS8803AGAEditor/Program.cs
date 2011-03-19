@@ -4,9 +4,9 @@ using System.ComponentModel;
 using System.Drawing.Design;
 using System.Collections.Generic;
 using System.Collections.Specialized;
-using CS8803AGAGameLibrary;
+using MetroidAIGameLibrary;
 
-namespace CS8803AGAEditor
+namespace MetroidAIEditor
 {
     static class Program
     {

@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CS8803AGA.engine;
+using MetroidAI.engine;
 using Microsoft.Xna.Framework;
-using CS8803AGA.collision;
+using MetroidAI.collision;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace CS8803AGA.controllers.enemies
+namespace MetroidAI.controllers.enemies
 {
     public abstract class EnemyController : CharacterController
     {

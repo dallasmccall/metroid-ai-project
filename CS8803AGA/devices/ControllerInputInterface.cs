@@ -17,7 +17,7 @@
 */
 
 
-namespace CS8803AGA.devices
+namespace MetroidAI.devices
 {
     /// <summary>
     /// Interface for a wrapper of a device which receives inputs such as

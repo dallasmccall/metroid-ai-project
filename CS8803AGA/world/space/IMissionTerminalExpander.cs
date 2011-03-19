@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 
-namespace CS8803AGA.world.space
+namespace MetroidAI.world.space
 {
     /// <summary>
     /// Encapsulation of logic for determining whether a particular mission

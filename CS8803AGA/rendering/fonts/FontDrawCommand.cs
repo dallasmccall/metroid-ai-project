@@ -5,7 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 
-namespace CS8803AGA
+namespace MetroidAI
 {
     /// <summary>
     /// Much like a texture DrawCommand, an encapsulation of an instruction

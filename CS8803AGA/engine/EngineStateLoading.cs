@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CS8803AGA.engine
+namespace MetroidAI.engine
 {
     class EngineStateLoading : AEngineState
     {

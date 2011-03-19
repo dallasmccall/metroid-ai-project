@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CS8803AGAGameLibrary.actions;
+using MetroidAIGameLibrary.actions;
 
-namespace CS8803AGA.actions
+namespace MetroidAI.actions
 {
     public abstract class AAction<T> : IAction
         where T : AActionInfo

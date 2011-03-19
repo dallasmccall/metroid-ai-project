@@ -30,7 +30,7 @@ using Microsoft.Xna.Framework.Media;
 using Microsoft.Xna.Framework.Net;
 using Microsoft.Xna.Framework.Storage;
 
-namespace CS8803AGA
+namespace MetroidAI
 {
     /// <summary>
     /// Encapsulates SpriteFonts to make them easier to use

@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 using CSharpQuadTree;
-using CS8803AGA.engine;
-using CS8803AGA.devices;
-using CS8803AGA.collision;
-using CS8803AGAGameLibrary;
-using CS8803AGA.world.mission;
+using MetroidAI.engine;
+using MetroidAI.devices;
+using MetroidAI.collision;
+using MetroidAIGameLibrary;
+using MetroidAI.world.mission;
 using Microsoft.Xna.Framework.Graphics;
-using CS8803AGAGameLibrary.player;
-using CS8803AGA.controllers.projectiles;
-using CS8803AGA.world;
+using MetroidAIGameLibrary.player;
+using MetroidAI.controllers.projectiles;
+using MetroidAI.world;
 
-namespace CS8803AGA.controllers
+namespace MetroidAI.controllers
 {
     /// <summary>
     /// CharacterController for a player-controlled Character.

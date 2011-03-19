@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <XnaContent>
-  <Asset Type="CS8803AGAGameLibrary.CharacterInfo">
+  <Asset Type="MetroidAIGameLibrary.CharacterInfo">
     <animationTexturePath>Animation/Textures/SamusRed</animationTexturePath>
     <animationDataPath>Animation/Data/SamusRed</animationDataPath>
     <collisionBox>-17 -100 34 100</collisionBox>

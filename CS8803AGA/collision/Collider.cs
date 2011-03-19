@@ -2,9 +2,9 @@
 using CSharpQuadTree;
 using System;
 using System.Collections.Generic;
-using CS8803AGA.controllers;
+using MetroidAI.controllers;
 
-namespace CS8803AGA.collision
+namespace MetroidAI.collision
 {
     public enum ColliderType
     {

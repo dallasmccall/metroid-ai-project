@@ -5,7 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 
-namespace CS8803AGAGameLibrary
+namespace MetroidAIGameLibrary
 {
     /// <summary>
     /// Metadata about a TileSet

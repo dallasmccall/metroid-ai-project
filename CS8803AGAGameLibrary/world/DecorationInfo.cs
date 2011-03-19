@@ -6,7 +6,7 @@ using System.ComponentModel;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 
-namespace CS8803AGAGameLibrary
+namespace MetroidAIGameLibrary
 {
     /// <summary>
     /// Encapsulation of data needed to load a Decoration from a spritesheet

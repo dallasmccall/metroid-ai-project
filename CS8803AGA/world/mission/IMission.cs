@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CS8803AGA.world.space;
+using MetroidAI.world.space;
 
-namespace CS8803AGA.world.mission
+namespace MetroidAI.world.mission
 {
     /// <summary>
     /// Encapsulation of a mission graph.

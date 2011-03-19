@@ -7,10 +7,10 @@ using System.IO;
 using System.Xml.Serialization;
 using System.Xml;
 using System.Reflection;
-using CS8803AGA.world.space;
-using CS8803AGAGameLibrary.player;
+using MetroidAI.world.space;
+using MetroidAIGameLibrary.player;
 
-namespace CS8803AGA.world.mission
+namespace MetroidAI.world.mission
 {
     class MissionGrammarImpl : IMissionGrammar
     {
@@ -97,8 +97,9 @@ namespace CS8803AGA.world.mission
             {
                 Type[] doubleStringCtorParams =
                     new Type[] { typeof(String), typeof(String), typeof(ParametersTable) };
+                /*FIXME - Totally ugly hack! -Dallas 19/3/2011*/
                 Type typeOfTargetClass = Type.GetType(
-                    String.Format("{0}.{1}", "CS8803AGA.world.space.expanders", Class),
+                    String.Format("{0}.{1}", "MetroidAI.world.space.expanders", Class),
                     true,
                     true);
                 ConstructorInfo ctor = typeOfTargetClass.GetConstructor(doubleStringCtorParams);
@@ -128,7 +129,7 @@ namespace CS8803AGA.world.mission
 
         #endregion
        
-        public IMission WalkGrammar(CS8803AGAGameLibrary.player.PlayerModel playerModel)
+        public IMission WalkGrammar(MetroidAIGameLibrary.player.PlayerModel playerModel)
         {
             /* TODO:
              *  Add Weights to possible paths to take into account the player model

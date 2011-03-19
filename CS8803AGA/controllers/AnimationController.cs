@@ -1,12 +1,12 @@
-﻿using CS8803AGAGameLibrary;
+﻿using MetroidAIGameLibrary;
 using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using CS8803AGAGameLibrary.actions;
-using CS8803AGA.actions;
+using MetroidAIGameLibrary.actions;
+using MetroidAI.actions;
 using System.Collections.Generic;
 
-namespace CS8803AGA.controllers
+namespace MetroidAI.controllers
 {
     public delegate void ActionTriggeredEventHandler(object sender, IAction action);
 

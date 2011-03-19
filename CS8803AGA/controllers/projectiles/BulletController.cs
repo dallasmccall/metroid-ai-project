@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
-using CS8803AGA.engine;
+using MetroidAI.engine;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace CS8803AGA.controllers.projectiles
+namespace MetroidAI.controllers.projectiles
 {
     class BulletController : ProjectileController
     {

@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CS8803AGA.audio;
+using MetroidAI.audio;
 using Microsoft.Xna.Framework;
-using CS8803AGA.devices;
+using MetroidAI.devices;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace CS8803AGA.engine
+namespace MetroidAI.engine
 {
     public class EngineStateWin : AEngineState
     {

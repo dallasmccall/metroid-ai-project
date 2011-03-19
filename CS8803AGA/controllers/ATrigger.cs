@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CS8803AGA.collision;
+using MetroidAI.collision;
 using Microsoft.Xna.Framework;
 
-namespace CS8803AGA.controllers
+namespace MetroidAI.controllers
 {
     /// <summary>
     /// A Trigger is a Collidable which can be moved through but causes

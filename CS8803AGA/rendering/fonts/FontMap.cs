@@ -23,7 +23,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace CS8803AGA
+namespace MetroidAI
 {
     /// <summary>
     /// Singleton that stores GameFonts and allows text to be drawn to the screen

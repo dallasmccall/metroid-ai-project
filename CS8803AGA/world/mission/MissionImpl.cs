@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CS8803AGA.world.space;
-using CS8803AGA.controllers;
+using MetroidAI.world.space;
+using MetroidAI.controllers;
 
-namespace CS8803AGA.world.mission
+namespace MetroidAI.world.mission
 {
     /// <summary>
     /// Contains a graph of a mission, possibly with some non-terminal nodes.
@@ -25,7 +25,7 @@ namespace CS8803AGA.world.mission
 
         #region IMission Members
 
-        public CS8803AGA.world.space.IMissionQueue MissionQueue
+        public MetroidAI.world.space.IMissionQueue MissionQueue
         {
             get
             {

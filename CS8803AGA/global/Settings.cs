@@ -24,10 +24,10 @@ using Microsoft.Xna.Framework.Storage;
 using Microsoft.Xna.Framework;
 using System.Xml;
 using System.IO;
-using CS8803AGA.utilties;
-using CS8803AGA.audio;
+using MetroidAI.utilties;
+using MetroidAI.audio;
 
-namespace CS8803AGA
+namespace MetroidAI
 {
     /// <summary>
     /// Singleton for control and game settings.

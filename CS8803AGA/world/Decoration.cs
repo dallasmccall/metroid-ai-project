@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
-using CS8803AGAGameLibrary;
+using MetroidAIGameLibrary;
 using Microsoft.Xna.Framework.Graphics;
-using CS8803AGA.collision;
-using CS8803AGA.engine;
+using MetroidAI.collision;
+using MetroidAI.engine;
 
-namespace CS8803AGA
+namespace MetroidAI
 {
     /// <summary>
     /// A piece of scenery in the game world

@@ -25,7 +25,7 @@ using Microsoft.Xna.Framework.Content;
 //
 // Thank you very much for your tutorial, 'zygote'!
 
-namespace CS8803AGA.audio
+namespace MetroidAI.audio
 {
     /// <summary>
     /// A simple class for pulling sounds from a compiled XACT project and

@@ -5,7 +5,7 @@ using System.Text;
 using System.ComponentModel;
 using System.Drawing.Design;
 
-namespace CS8803AGAGameLibrary
+namespace MetroidAIGameLibrary
 {
     /// <summary>
     /// Information about a sprite sheet with world decorations, terrain, etc

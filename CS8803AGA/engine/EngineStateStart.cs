@@ -26,9 +26,9 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Storage;
 using Microsoft.Xna.Framework.GamerServices;
 using System.Xml;
-using CS8803AGA.devices;
+using MetroidAI.devices;
 
-namespace CS8803AGA.engine
+namespace MetroidAI.engine
 {
     /// <summary>
     /// EngineStateStart's purpose is to determine the active controller and

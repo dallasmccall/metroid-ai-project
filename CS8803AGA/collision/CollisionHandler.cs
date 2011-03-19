@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 using CSharpQuadTree;
-using CS8803AGA.controllers;
-using CS8803AGA.controllers.enemies;
+using MetroidAI.controllers;
+using MetroidAI.controllers.enemies;
 
-namespace CS8803AGA.collision
+namespace MetroidAI.collision
 {
     /// <summary>
     /// Handles determining the effects of various collisions and whether

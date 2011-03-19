@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
-using CS8803AGA.collision;
+using MetroidAI.collision;
 
-namespace CS8803AGA.controllers
+namespace MetroidAI.controllers
 {
     /// <summary>
     /// A Trigger which causes damage to those in it.
@@ -24,7 +24,7 @@ namespace CS8803AGA.controllers
 
         #region ITrigger Members
 
-        public override void handleImpact(CS8803AGA.collision.Collider mover)
+        public override void handleImpact(MetroidAI.collision.Collider mover)
         {
             // don't actually care about things moving through it, just what it's touching while it's alive
         }

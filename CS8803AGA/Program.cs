@@ -1,6 +1,6 @@
 using System;
 
-namespace CS8803AGA
+namespace MetroidAI
 {
     static class Program
     {
@@ -9,9 +9,6 @@ namespace CS8803AGA
         /// </summary>
         static void Main(string[] args)
         {
-            //CS8803AGA.world.mission.MissionGrammar grammar = CS8803AGA.world.mission.MissionGrammar.LoadFromFile("Mission/MissionGrammar.xml");
-            //grammar.printGrammar();
-            //return;
             using (Engine game = new Engine())
             {
                 game.Run();

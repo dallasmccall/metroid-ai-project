@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
-using CS8803AGA.devices;
+using MetroidAI.devices;
 
-namespace CS8803AGA.engine
+namespace MetroidAI.engine
 {
     public class EngineStateMap : AEngineState
     {

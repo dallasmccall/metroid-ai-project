@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using System.ComponentModel;
 
-namespace CS8803AGAGameLibrary
+namespace MetroidAIGameLibrary
 {
     /// <summary>
     /// Encapsulation of metadata used to create a CharacterController

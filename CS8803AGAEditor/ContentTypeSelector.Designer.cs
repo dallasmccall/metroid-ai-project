@@ -1,4 +1,4 @@
-﻿namespace CS8803AGAEditor
+﻿namespace MetroidAIEditor
 {
     partial class ContentTypeSelector
     {

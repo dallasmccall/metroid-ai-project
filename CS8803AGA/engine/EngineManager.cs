@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 
-namespace CS8803AGA.engine
+namespace MetroidAI.engine
 {
     /// <summary>
     /// Manages a stack containing all of the states of the game.

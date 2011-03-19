@@ -31,10 +31,10 @@ using System.Text;
 using System.Threading;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework;
-using CS8803AGA.devices;
-using CS8803AGA.engine;
+using MetroidAI.devices;
+using MetroidAI.engine;
 
-namespace CS8803AGA
+namespace MetroidAI
 {
     /// <summary>
     /// Thread responsible for updating game logic and filling the draw stacks

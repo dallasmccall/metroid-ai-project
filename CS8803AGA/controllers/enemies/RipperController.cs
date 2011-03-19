@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
-using CS8803AGA.collision;
+using MetroidAI.collision;
 
-namespace CS8803AGA.controllers.enemies
+namespace MetroidAI.controllers.enemies
 {
     public class RipperController : EnemyController1
     {

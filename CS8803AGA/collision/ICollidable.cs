@@ -1,7 +1,7 @@
-﻿using CS8803AGA.controllers;
+﻿using MetroidAI.controllers;
 using Microsoft.Xna.Framework;
 
-namespace CS8803AGA.collision
+namespace MetroidAI.collision
 {
     /// <summary>
     /// Interface for all objects which should register themselves with the

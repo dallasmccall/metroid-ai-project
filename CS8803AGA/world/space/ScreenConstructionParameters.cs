@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 
-namespace CS8803AGA.world.space
+namespace MetroidAI.world.space
 {
     /// <summary>
     /// Simple class for creating a grid-based world, each object is a cell in the grid and contains

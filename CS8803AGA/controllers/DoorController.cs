@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CS8803AGA.collision;
-using CS8803AGA.world;
+using MetroidAI.collision;
+using MetroidAI.world;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using CSharpQuadTree;
-using CS8803AGA.engine;
-using CS8803AGA.controllers.enemies;
+using MetroidAI.engine;
+using MetroidAI.controllers.enemies;
 
-namespace CS8803AGA.controllers
+namespace MetroidAI.controllers
 {
     class DoorController : ACollidable, IShootable
     {

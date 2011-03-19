@@ -6,9 +6,9 @@ using System.Xml;
 using Microsoft.Xna.Framework.Content.Pipeline.Serialization.Intermediate;
 using Microsoft.Xna.Framework;
 
-using CS8803AGAGameLibrary;
-using CS8803AGAGameLibrary.actions;
-using CS8803AGAGameLibrary.player;
+using MetroidAIGameLibrary;
+using MetroidAIGameLibrary.actions;
+using MetroidAIGameLibrary.player;
 
 namespace XMLTester
 {
@@ -70,9 +70,6 @@ namespace XMLTester
                 ModelFormula killativityForm = new ModelFormula(killativityList);
                 float killativityVal = killativityForm.evalFormula(testModel.getAllStats());
 
-
-                ModelFormula testXmlForm = new ModelFormula("C:/mark_lab/branches/project0/CS8803AGA/player/formula/exploreFormula.xml");
-                float testXmlVal = testXmlForm.evalFormula(testModel.getAllStats());
                 ModelFormula formA = new ModelFormula("postfix", "25+22+*");
                 object test = killativityForm;
 

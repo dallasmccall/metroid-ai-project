@@ -20,7 +20,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using System;
 
-namespace CS8803AGA.devices
+namespace MetroidAI.devices
 {
     /// <summary>
     /// Implementation of ControllerInputInterface for a regular PC user

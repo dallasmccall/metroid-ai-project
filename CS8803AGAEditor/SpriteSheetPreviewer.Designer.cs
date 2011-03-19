@@ -1,4 +1,4 @@
-﻿namespace CS8803AGAEditor
+﻿namespace MetroidAIEditor
 {
     partial class SpriteSheetPreviewer
     {
@@ -35,7 +35,7 @@
             this.m_bColor = new System.Windows.Forms.Button();
             this.m_tbScale = new System.Windows.Forms.TrackBar();
             this.m_bUndo = new System.Windows.Forms.Button();
-            this.m_pictureBox = new CS8803AGAEditor.BetterPictureBox();
+            this.m_pictureBox = new MetroidAIEditor.BetterPictureBox();
             this.m_bExport = new System.Windows.Forms.Button();
             this.m_picturePanel.SuspendLayout();
             this.statusStrip1.SuspendLayout();

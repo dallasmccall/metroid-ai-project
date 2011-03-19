@@ -1,13 +1,13 @@
 ﻿using Microsoft.Xna.Framework;
 using System;
-using CS8803AGAGameLibrary;
-using CS8803AGA.collision;
-using CS8803AGA.engine;
-using CS8803AGA.actions;
+using MetroidAIGameLibrary;
+using MetroidAI.collision;
+using MetroidAI.engine;
+using MetroidAI.actions;
 using Microsoft.Xna.Framework.Graphics;
-using CS8803AGA.controllers.enemies;
+using MetroidAI.controllers.enemies;
 
-namespace CS8803AGA.controllers
+namespace MetroidAI.controllers
 {
     public abstract class CharacterController : ICollidable
     {

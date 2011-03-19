@@ -7,7 +7,7 @@ using System.ComponentModel;
 using System.Windows.Forms.Design;
 using System.Windows.Forms;
 
-namespace CS8803AGAGameLibrary
+namespace MetroidAIGameLibrary
 {
     class DictionaryTypeEditor<K, V> : UITypeEditor
     {

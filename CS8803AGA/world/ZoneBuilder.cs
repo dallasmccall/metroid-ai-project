@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
-using CS8803AGA.controllers;
-using CS8803AGA.world.space;
+using MetroidAI.controllers;
+using MetroidAI.world.space;
 
-namespace CS8803AGA.world
+namespace MetroidAI.world
 {
     #region Public Helper Classes
 

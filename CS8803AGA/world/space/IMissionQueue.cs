@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CS8803AGA.world.space
+namespace MetroidAI.world.space
 {
     /// <summary>
     /// Container for a graph of mission terminals during a mapping onto a
